@@ -1,0 +1,45 @@
+{
+  "version": "5.1.1",
+  "authoredLessonEntries": 215,
+  "englishActivities": 5,
+  "distinctTitles": 216,
+  "resourceSets": 36,
+  "directVideoDestinations": 29,
+  "passed": 7,
+  "failed": 0,
+  "results": [
+    {
+      "name": "all 215 authored lessons have an explicit resource assignment",
+      "status": "PASS"
+    },
+    {
+      "name": "each assigned set has a video and a written source",
+      "status": "PASS"
+    },
+    {
+      "name": "all destinations use HTTPS and known publishers",
+      "status": "PASS"
+    },
+    {
+      "name": "broader introductions are explicitly labelled",
+      "status": "PASS"
+    },
+    {
+      "name": "five technical English activities have supporting videos",
+      "status": "PASS"
+    },
+    {
+      "name": "video resources and UI are included in the offline app snapshot",
+      "status": "PASS"
+    },
+    {
+      "name": "UI uses direct video destinations where supplied and has safe external links",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Assignment coverage does not prove each video fully teaches each subtopic.",
+    "Supporting introductions are explicitly labelled.",
+    "No guarantee of playback in every region, captions, licences or future availability."
+  ]
+}

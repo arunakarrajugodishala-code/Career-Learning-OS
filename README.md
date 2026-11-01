@@ -1,4 +1,4 @@
-# Career Learning OS v5.1.0
+# Career Learning OS v5.1.1
 
 A free self-study app for GitHub Pages. This is a working learning workspace, not a fully reviewed beginner-to-advanced academy or accredited qualification. Full acceptance remains pending.
 
@@ -21,3 +21,13 @@ Nine current gates appear in Nine release gates, Release QA and Release readines
 Deploy the repository root to GitHub Pages. Keep index.html at the root and preserve icons/, labs/, tests/ and reports/. Application assets are served from one installed cache snapshot. A changed service-worker cache version installs the next snapshot; reload after a successful update. Existing learning storage keys are preserved. Export before updating or clearing storage. Browser clearing and private browsing may remove progress and snapshots. For rollback, revert the release commit and deploy the previous source; do not clear local storage.
 
 No secrets or real patient data belong in notes, public portfolios or the repository. User-entered data is rendered as text. Local browser data is not encrypted. Keep exported backups private. Check the actual vacancy and current official immigration guidance before career decisions; this app does not determine eligibility.
+
+## v5.1.1 — visible videos and learning sources
+
+Use Videos & sources in the sidebar or the new Home button. Every one of the 215 authored lesson entries, including older EPR/v7/v8/v9/v10 material, has a saved video/source assignment. The five Technical English activities also have links. There are 216 distinct titles and 36 reusable resource sets. Related subtopics may share a supporting introduction; that is labelled explicitly and is not a claim that one video teaches every skill.
+
+Video learning panels appear beside lesson headings, including after dropdown changes. Where retrieved from the publisher, Watch video uses a direct player URL; otherwise it opens the publisher’s video lesson. Read source opens written notes or guidance. Captions and speed controls depend on the external player. External videos require internet and are not downloaded into the app’s offline cache.
+
+Publisher pages were checked on 1 November 2026 using web retrieval and HTTP checks. The HTTP check reached 55 of the original 57 unique publisher URLs; two ICO pages rejected automated HTTP retrieval but were available through web retrieval. No full-playback, licence or individual topic-completeness approval is asserted. Resource pages can contain optional paid courses, products or services. Watching the selected resource does not require buying those extras.
+
+Run `node tests/v511_resources.cjs` for the assignment and safe-URL checks. See reports/V511-RESOURCE-COVERAGE.json, reports/V511-RESOURCE-URL-CHECKS.json and reports/V511-BROWSER.json.

@@ -1,0 +1,20 @@
+{
+  "version": "5.1.1",
+  "method": "Managed Chrome UI on HTTP preview",
+  "checks": {
+    "Home video entry": true,
+    "Sidebar video entry": true,
+    "SQL joins video search": true,
+    "SQL filtering lesson top video and source": true,
+    "EPR panels": 10,
+    "BA panels": 4,
+    "QA panels after dropdown change": 4,
+    "Technical English page and activity panels": 6,
+    "Linked CS50 video-player page opened": true
+  },
+  "limitations": [
+    "Actual playback not certified for all videos",
+    "No physical iPhone or narrow-layout test in this run",
+    "External source availability can change"
+  ]
+}
