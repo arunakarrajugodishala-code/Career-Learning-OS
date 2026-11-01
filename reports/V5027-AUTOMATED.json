@@ -1,0 +1,412 @@
+[
+  {
+    "name": "topics-extra.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-18.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v33.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "sw.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "release-qa.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-13.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "review-v12-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "device-evidence-v5025.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "epr-v6.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "foundation-v25-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "curriculum-v31-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "readiness-v30.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v8-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-14.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "resilience-v508.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v9-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "foundation-v4.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "quiz-engine-v5017.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "reliability-v28.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "evidence-v509.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v5012-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "practice-v5011-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v5012-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v11-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "specialisation-v26-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v10-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "foundation-course-v502-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "assessment-v506.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "pathways-v5013-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-17.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v7-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "depth-v24-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v5.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v5-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "healthcare-v503-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "app.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v10-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "remediation-v5010-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-19.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "deep-lessons.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-15.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "assessment-v32.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "curriculum-v31-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "device-diagnostics-v5024.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "foundation-course-v502-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "mastery-v11-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "recovery-v29.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "foundation-v25-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v7-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "specialisation-v26-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v9-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-20.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "pathways-v5013-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestones-engine.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "technical-v27-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "review-v12-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "verification-v507.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "epr-v6-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "projects-v34.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "academy-redesign-v5026.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "coverage-v505.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "coverage-v22.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "curriculum-evidence-v501.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "technical-v27-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "features-v23.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "remediation-v5010-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "advanced-v504-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "roadmaps.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "practice-v5011-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "healthcare-v503-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "milestone-16.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "depth-v24-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "advanced-v504-ui.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "completion-v50.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "career-v8-data.js",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "v5016_backup_safety.js",
+    "pass": true,
+    "detail": "{\n  \"passed\": 7,\n  \"failed\": 0,\n  \"results\": [\n    {\n      \"name\": \"valid backup import\",\n      \"status\": \"PASS\",\n      \"message\": \"Backup imported. Reload or open a lesson to see updated progress.\"\n    },\n    {\n      \"name\": \"user cancels import\",\n      \"status\": \"PASS\",\n      \"message\": \"Import cancelled; current progress unchanged\"\n    },\n    {\n      \"name\": \"reject array as state\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Unsupported backup format\"\n    },\n    {\n      \"name\": \"reject missing notes\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Invalid notes records\"\n    },\n    {\n      \"name\": \"reject malicious prototype key\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Unsupported backup format\"\n    },\n    {\n      \"name\": \"reject invalid completion values\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Invalid completion records\"\n    },\n    {\n      \"name\": \"reject malformed JSON\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Expected property name or '}' in JSON at position 1 (line 1 column 2)\"\n    }\n  ]\n}\n"
+  },
+  {
+    "name": "v5017_quiz_engine.js",
+    "pass": true,
+    "detail": "PASS all correct\nPASS wrong answers\nPASS partial answers do not count as complete\nPASS empty answer\nPASS answer count mismatch\nPASS out-of-range answer\nPASS fractional answer\nPASS invalid answer key\nPASS empty bank\nPASS no string coercion\n{\"passed\":10,\"failed\":0}\n"
+  },
+  {
+    "name": "v5018_assessment_integration.js",
+    "pass": true,
+    "detail": "PASS 9 assessment engine and integration checks\n"
+  },
+  {
+    "name": "v5019_quiz_engine.cjs",
+    "pass": true,
+    "detail": "8 quiz engine tests passed\n"
+  },
+  {
+    "name": "v5023_offline_simulation.cjs",
+    "pass": true,
+    "detail": "{\n  \"version\": \"5.0.23\",\n  \"method\": \"Node VM simulated Service Worker CacheStorage, network and lifecycle\",\n  \"limitations\": [\n    \"Not real browser Service Worker registration\",\n    \"No real offline browser navigation or iPhone Safari verification\",\n    \"Does not prove disk storage persistence\"\n  ],\n  \"passed\": 9,\n  \"failed\": 0,\n  \"tests\": [\n    {\n      \"name\": \"service worker installs and precaches all referenced assets\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"activation claims clients\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"offline cached HTML responds\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"offline cached script responds\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"offline unknown navigation falls back to app shell\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"offline missing asset returns 503\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"online successful response is cached\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"cross-origin requests are not intercepted\",\n      \"pass\": true\n    },\n    {\n      \"name\": \"non-GET requests are not intercepted\",\n      \"pass\": true\n    }\n  ]\n}\n"
+  },
+  {
+    "name": "v5025_device_evidence.cjs",
+    "pass": true,
+    "detail": "6 device evidence source checks passed\n"
+  }
+]

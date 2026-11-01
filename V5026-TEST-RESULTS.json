@@ -1,0 +1,19 @@
+{
+  "desktop": {
+    "title": "Make progress, one lesson at a time.",
+    "cards": 6,
+    "sidebar_groups": 5,
+    "errors": [],
+    "overflow": false,
+    "course_opened": "Healthcare Systems / EPR \u2014 v0.6\n\nTen sequenced specialist learning units, with written explanations,"
+  },
+  "mobile": {
+    "title": "Make progress, one lesson at a time.",
+    "cards": 6,
+    "sidebar_groups": 5,
+    "errors": [],
+    "overflow": false,
+    "mobile_menu_visible": true,
+    "home_returned": true
+  }
+}

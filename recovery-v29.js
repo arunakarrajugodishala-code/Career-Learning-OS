@@ -29,6 +29,6 @@ function show(){
  document.getElementById('v29-undo').onclick=()=>{try{const old=localStorage.getItem(SNAP);if(!old)throw Error('No safety snapshot exists');const parsed=JSON.parse(old);if(!plain(parsed))throw Error('Snapshot invalid');if(!confirm('Undo the last restore and replace current progress?'))return;localStorage.setItem(KEY,old);state={done:{},notes:{},attempts:{},...parsed};localStorage.removeItem(SNAP);status.textContent='Last restore undone.';storage();}catch(err){status.textContent='Undo unavailable: '+err.message;}};
  document.getElementById('v29-check').onclick=()=>{const key='clos-v29-write-test';try{localStorage.setItem(key,'verified');if(localStorage.getItem(key)!=='verified')throw Error('Readback mismatch');localStorage.removeItem(key);document.getElementById('v29-check-result').textContent='PASS: local storage write/read/delete on this browser. This does not verify backup recovery or durability.';}catch(err){document.getElementById('v29-check-result').textContent='FAIL: '+err.message;}};
 }
-render=function(){if(view==='recovery-v29'){show();return;}oldRender();};
+render=function(){if(view==='recovery-v29'||view==='settings'){show();return;}oldRender();};
 window.CLOS.validateBackupV29=validate;
 })();

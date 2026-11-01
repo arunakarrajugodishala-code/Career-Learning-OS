@@ -1,0 +1,203 @@
+{
+  "method": "Chromium with locally inlined scripts and simulated browser storage",
+  "limitations": [
+    "No physical iPhone or Safari",
+    "No live GitHub Pages origin",
+    "No real service-worker installation or real offline test",
+    "No independent educational, accessibility or security signoff"
+  ],
+  "checks": [
+    {
+      "name": "desktop home dashboard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop six courses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop all nav retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course epr",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course data-analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course security-cloud",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course dev-data-ai",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course english-v23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop course ba-qa",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop device evidence opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop no uncaught JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile home dashboard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile six courses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile all nav retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course epr",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course data-analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course security-cloud",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course dev-data-ai",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course english-v23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile course ba-qa",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile device evidence opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile menu expands",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile no uncaught JS errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "small-mobile home dashboard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile six courses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile all nav retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile no horizontal overflow",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course epr",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course data-analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course security-cloud",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course dev-data-ai",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course english-v23",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile course ba-qa",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile device evidence opens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile menu expands",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "small-mobile no uncaught JS errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 38,
+  "failed": 0
+}

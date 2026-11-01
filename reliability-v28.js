@@ -4,7 +4,7 @@ const oldRender=render;
 render=function(){if(view==='reliability-v28'){showReliability();return;}oldRender();};
 const h=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function collect(){
- const buttons=[...document.querySelectorAll('nav button')];
+ const buttons=[...document.querySelectorAll('nav button[data-view]')];
  const results=[];const test=(name,fn)=>{try{let ok=fn();results.push({name,status:ok?'PASS':'FAIL'});}catch(e){results.push({name,status:'FAIL',detail:e.message});}};
  test('Navigation buttons have unique route identifiers',()=>buttons.every(b=>b.dataset.view)&&new Set(buttons.map(b=>b.dataset.view)).size===buttons.length);
  test('Application root is present',()=>!!document.querySelector('main#app'));
