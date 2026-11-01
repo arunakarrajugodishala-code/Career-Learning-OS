@@ -1,0 +1,57 @@
+{
+  "version": "3.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "HTML has one application root",
+      "status": "PASS"
+    },
+    {
+      "name": "All scripts exist",
+      "status": "PASS"
+    },
+    {
+      "name": "Script references unique",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation routes unique",
+      "status": "PASS"
+    },
+    {
+      "name": "Release readiness page registered",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline precache includes scripts",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline precache includes index and manifest",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline precache files exist",
+      "status": "PASS"
+    },
+    {
+      "name": "PWA icon assets exist",
+      "status": "PASS"
+    },
+    {
+      "name": "Release status discloses limitations",
+      "status": "PASS"
+    },
+    {
+      "name": "JavaScript syntax",
+      "status": "PASS"
+    }
+  ],
+  "scripts": 45,
+  "routes": 26,
+  "js_files": 46,
+  "syntax_failures": [],
+  "browser": "NOT_TESTED",
+  "curriculum_accuracy": "NOT_REVIEWED",
+  "release": "BLOCKED"
+}

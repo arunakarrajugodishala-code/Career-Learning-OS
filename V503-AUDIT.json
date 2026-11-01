@@ -1,0 +1,39 @@
+{
+  "version": "5.0.3",
+  "checks": {
+    "javascript_syntax": {
+      "status": "PASS",
+      "files": 57
+    },
+    "script_references": {
+      "status": "PASS",
+      "count": 56
+    },
+    "navigation_unique": {
+      "status": "PASS",
+      "count": 34
+    },
+    "offline_cache_files": {
+      "status": "PASS",
+      "count": 73
+    },
+    "new_content_schema": {
+      "status": "PASS",
+      "units": 12,
+      "formative_questions": 24
+    },
+    "browser_interactions": {
+      "status": "NOT_TESTED"
+    },
+    "real_device": {
+      "status": "NOT_TESTED"
+    },
+    "expert_content_review": {
+      "status": "REVIEW"
+    },
+    "full_curriculum": {
+      "status": "FAIL",
+      "reason": "15 career pathways not yet comprehensive"
+    }
+  }
+}

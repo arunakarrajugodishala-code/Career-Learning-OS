@@ -1,0 +1,18 @@
+{
+  "version": "2.8",
+  "staticChecks": {
+    "scripts_exist": true,
+    "unique_navigation": true,
+    "reliability_view": true,
+    "manifest_exists": true,
+    "offline_worker_exists": true,
+    "offline_includes_reliability": true,
+    "js_syntax": true,
+    "offline_assets_exist": true
+  },
+  "javascriptFilesChecked": 44,
+  "navigationRoutes": 24,
+  "syntaxErrors": [],
+  "browserStatus": "NOT_TESTED",
+  "releaseStatus": "BLOCKED"
+}

@@ -1,0 +1,14 @@
+/* v2.2: Transparent source-inventory and release evidence. */
+(function(){'use strict';
+const prev=render;
+render=function(){if(view==='coverage-v22'){coverageView();return;}prev();};
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function coverageView(){
+const d=window.CLOS;
+const groups=[['Core topic records',d.topics?.length||0],['Career outlines',d.careers?.length||0],['Deep foundation units',d.deepLessons?.length||0],['Foundation lessons',d.foundationV4?.length||0],['EPR units',d.eprV6?.length||0],['Applied milestones',d.milestones?.length||0]];
+const weak=(d.topics||[]).filter(t=>(t.assessment||[]).length<5);
+const unverified=(d.topics||[]).filter(t=>t.video?.reviewed!==true||!t.video?.url);
+const missing=(d.topics||[]).flatMap(t=>(d.required||[]).filter(f=>t[f]===undefined||t[f]===null||(Array.isArray(t[f])&&!t[f].length)).map(field=>t.id+': '+field));
+app.innerHTML='<h2>Curriculum coverage and remaining work</h2><p class="qa-status"><strong>Release gate: BLOCKED</strong>. These counts represent authored records, not full professional qualifications or independently reviewed lessons.</p><div class="qa-grid">'+groups.map(([k,v])=>'<section class="card"><h3>'+escapeHtml(k)+'</h3><strong>'+v+'</strong></section>').join('')+'</div><section class="card"><h3>Outstanding core content checks</h3><ul><li>'+unverified.length+' core topics without independently verified video records</li><li>'+weak.length+' core topics with fewer than five knowledge questions</li><li>'+missing.length+' required core content fields missing</li></ul><details><summary>Show missing fields</summary><ul>'+missing.map(x=>'<li>'+escapeHtml(x)+'</li>').join('')+'</ul></details><p>Video and factual accuracy checks require independent review; no live links were checked here.</p></section><section class="card"><h3>Production acceptance gates</h3><ol><li>Complete syllabus and prerequisite mapping for every career</li><li>Substantive lessons, examples, exercises, projects and revision for each topic</li><li>Verified resource relevance and accessibility</li><li>Independently checked assessments and project rubrics</li><li>CV, interview and job-readiness workflows</li><li>Backup recovery and optional secure cross-device synchronisation</li><li>Desktop/mobile interaction, keyboard, accessibility and offline tests</li><li>Security/privacy review and documented expert sign-off</li></ol><p><b>Not tested:</b> browser interaction and real devices. <b>Not implemented:</b> secure automatic sync and independent mastery grading.</p></section><section class="card"><h3>Audit evidence</h3><p>Download the included <a href="CONTENT-COVERAGE-AUDIT.json" download>content audit report</a> and <a href="STATIC-AUDIT.json" download>structural audit report</a>. The checker does not claim zero errors.</p></section>';
+}
+})();

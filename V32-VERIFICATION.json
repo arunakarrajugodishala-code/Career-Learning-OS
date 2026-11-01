@@ -1,0 +1,12 @@
+{
+  "version": "3.2",
+  "javascript_syntax_checked": 50,
+  "script_references_checked": 48,
+  "offline_paths_checked": 65,
+  "applied_units": 8,
+  "assessment_questions": 40,
+  "static_checks": "PASS",
+  "browser_interaction": "NOT_TESTED",
+  "independent_content_review": "PENDING",
+  "production_release": "BLOCKED"
+}

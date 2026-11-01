@@ -1,0 +1,462 @@
+{
+  "version": "5.0.5",
+  "disclaimer": "Planning inventory, not evidence of completion. Existing lessons may partially cover modules; crosswalk requires human review.",
+  "modules": [
+    {
+      "id": "ai-basics",
+      "title": "Ai Basics",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "ai-governance",
+      "title": "Ai Governance",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "api",
+      "title": "Api",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "business-analysis",
+      "title": "Business Analysis",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "curriculum-in-progress",
+      "title": "Curriculum In Progress",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "cyber",
+      "title": "Cyber",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "data-engineering",
+      "title": "Data Engineering",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "devops",
+      "title": "Devops",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "epr-intro",
+      "title": "Epr Intro",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "excel",
+      "title": "Excel",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "fhir",
+      "title": "Fhir",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "interview",
+      "title": "Interview",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "it-basics",
+      "title": "It Basics",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "os-linux",
+      "title": "Os Linux",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "powerbi",
+      "title": "Powerbi",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "python",
+      "title": "Python",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "sql-advanced",
+      "title": "Sql Advanced",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "sql-intro",
+      "title": "Sql Intro",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "requiredLevels": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "requiredEvidence": [
+        "lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "at least 5 reviewed questions",
+        "verified resource",
+        "human content review"
+      ],
+      "status": "GAP_OPEN"
+    }
+  ]
+}

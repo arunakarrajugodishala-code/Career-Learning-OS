@@ -1,0 +1,443 @@
+{
+  "schema": 1,
+  "scope": "Curriculum completion map, NOT proof of complete teaching",
+  "modules": [
+    {
+      "id": "it-basics",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "os-linux",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "networking",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "git",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "excel",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "sql-intro",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "sql-advanced",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "statistics",
+      "group": "Foundation",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "epr-intro",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "fhir",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "privacy",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "business-analysis",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "testing",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "powerbi",
+      "group": "Healthcare",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "python",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "api",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "cyber",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "cloud",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "devops",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "data-engineering",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "ai-basics",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "ai-governance",
+      "group": "Technical",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    },
+    {
+      "id": "interview",
+      "group": "Career",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "requiredEvidence": [
+        "concept lesson",
+        "worked example",
+        "guided exercise",
+        "independent project",
+        "5 reviewed questions",
+        "verified free resource",
+        "human review"
+      ],
+      "verification": "REVIEW"
+    }
+  ]
+}

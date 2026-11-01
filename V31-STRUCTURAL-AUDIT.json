@@ -1,0 +1,12 @@
+{
+  "version": "3.1",
+  "status": "DEVELOPMENT_RELEASE_BLOCKED",
+  "js_syntax_passed": 48,
+  "script_references_checked": 47,
+  "applied_units_added": 8,
+  "formative_questions_added": 8,
+  "service_worker_files_checked": 63,
+  "browser_tests": "NOT_TESTED",
+  "independent_content_review": "PENDING",
+  "complete_curriculum": "FAIL"
+}

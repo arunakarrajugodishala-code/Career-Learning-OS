@@ -1,0 +1,71 @@
+{
+  "release": "2.1-release-candidate",
+  "structuralChecks": [
+    {
+      "check": "All script files exist",
+      "status": "PASS",
+      "detail": "32 scripts"
+    },
+    {
+      "check": "No duplicate script imports",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All HTML IDs unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Navigation views unique",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All buttons have view or supported ID",
+      "status": "PASS",
+      "detail": "Static HTML buttons only; runtime buttons require browser testing"
+    },
+    {
+      "check": "All JavaScript files syntax valid",
+      "status": "PASS",
+      "detail": "33 files"
+    },
+    {
+      "check": "Install icons present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Service worker cache paths exist",
+      "status": "PASS",
+      "detail": "49 cache entries"
+    },
+    {
+      "check": "Offline shell included",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Progress key unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "QA view integrated",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ZIP package assets remain available",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "passed": 12,
+  "failed": 0,
+  "javascriptErrors": [],
+  "missingCacheAssets": [],
+  "browserAndDeviceTests": "NOT_TESTED: browser networking blocked by environment",
+  "releaseGate": "BLOCKED"
+}

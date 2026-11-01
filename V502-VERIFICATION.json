@@ -1,0 +1,13 @@
+{
+  "version": "5.0.2",
+  "javascript_syntax": "PASS",
+  "javascript_file_count": 55,
+  "script_references": "PASS",
+  "navigation_unique": "PASS",
+  "new_lessons": 7,
+  "new_questions": 35,
+  "offline_asset_references": "PASS",
+  "browser_interaction": "NOT_TESTED",
+  "independent_content_review": "REVIEW",
+  "production_release": "BLOCKED"
+}

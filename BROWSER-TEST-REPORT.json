@@ -1,0 +1,10 @@
+{
+  "version": "2.8",
+  "engine": "headless Chromium",
+  "results": [],
+  "pageErrors": [],
+  "blockedReason": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:40243/\nCall log:\n  - navigating to \"http://127.0.0.1:40243/\", waiting until \"domcontentloaded\"\n",
+  "browserStatus": "NOT_TESTED",
+  "passed": 0,
+  "failed": 0
+}

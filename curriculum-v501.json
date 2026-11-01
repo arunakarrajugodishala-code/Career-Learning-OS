@@ -1,0 +1,607 @@
+{
+  "version": "5.0.1",
+  "status": "INCOMPLETE",
+  "definition": "Syllabus outcomes are planning records, not complete lessons or verified assessments.",
+  "modules": [
+    {
+      "id": "ai-basics",
+      "title": "Ai Basics",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of ai basics.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply ai basics to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for ai basics.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "ai-governance",
+      "title": "Ai Governance",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of ai governance.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply ai governance to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for ai governance.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "api",
+      "title": "Api",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of api.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply api to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for api.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "business-analysis",
+      "title": "Business Analysis",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of business analysis.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply business analysis to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for business analysis.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of cloud.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply cloud to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for cloud.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "curriculum-in-progress",
+      "title": "Curriculum In Progress",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of curriculum in progress.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply curriculum in progress to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for curriculum in progress.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "cyber",
+      "title": "Cyber",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of cyber.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply cyber to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for cyber.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "data-engineering",
+      "title": "Data Engineering",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of data engineering.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply data engineering to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for data engineering.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "devops",
+      "title": "Devops",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of devops.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply devops to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for devops.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "epr-intro",
+      "title": "Epr Intro",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of epr intro.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply epr intro to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for epr intro.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "excel",
+      "title": "Excel",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of excel.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply excel to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for excel.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "fhir",
+      "title": "Fhir",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of fhir.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply fhir to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for fhir.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "git",
+      "title": "Git",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of git.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply git to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for git.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "interview",
+      "title": "Interview",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of interview.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply interview to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for interview.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "it-basics",
+      "title": "It Basics",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of it basics.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply it basics to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for it basics.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of networking.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply networking to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for networking.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "os-linux",
+      "title": "Os Linux",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of os linux.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply os linux to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for os linux.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "powerbi",
+      "title": "Powerbi",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of powerbi.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply powerbi to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for powerbi.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of privacy.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply privacy to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for privacy.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "python",
+      "title": "Python",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of python.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply python to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for python.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "sql-advanced",
+      "title": "Sql Advanced",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of sql advanced.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply sql advanced to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for sql advanced.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "sql-intro",
+      "title": "Sql Intro",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of sql intro.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply sql intro to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for sql intro.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of statistics.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply statistics to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for statistics.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "levels": [
+        {
+          "level": "Beginner",
+          "outcome": "Explain the purpose, vocabulary and safe basic workflow of testing.",
+          "evidence": "Explain key terms and complete a guided example"
+        },
+        {
+          "level": "Intermediate",
+          "outcome": "Apply testing to a fictional workplace scenario and troubleshoot common errors.",
+          "evidence": "Complete a documented practical exercise with expected results"
+        },
+        {
+          "level": "Advanced",
+          "outcome": "Evaluate trade-offs, limitations, risks and quality controls for testing.",
+          "evidence": "Submit an independent project with reproducible tests and a review rubric"
+        }
+      ],
+      "lessonStatus": "INCOMPLETE",
+      "assessmentStatus": "REVIEW",
+      "resourceStatus": "NOT_VERIFIED",
+      "reviewStatus": "NOT_REVIEWED"
+    }
+  ]
+}

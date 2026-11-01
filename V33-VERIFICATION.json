@@ -1,0 +1,11 @@
+{
+  "version": "3.3",
+  "jsSyntaxPassed": 51,
+  "scriptReferencesPassed": 49,
+  "offlineFilesPassed": 65,
+  "navigationRoutes": 29,
+  "zipIntegrity": "pending",
+  "browserInteractions": "NOT_TESTED",
+  "realDevice": "NOT_TESTED",
+  "independentCurriculumReview": "PENDING"
+}

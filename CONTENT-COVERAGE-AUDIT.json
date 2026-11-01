@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-11-01T05:31:05.894Z",
+  "release": "2.2-audited-candidate",
+  "scope": "Static source inventory, not external content review or interactive testing",
+  "inventory": {
+    "coreTopics": 23,
+    "careerOutlines": 15,
+    "deepLessons": 6,
+    "foundationLessons": 18,
+    "eprUnits": 10,
+    "appliedMilestones": 37
+  },
+  "checks": {
+    "dataScriptErrors": [],
+    "duplicateCoreTopicIds": [],
+    "missingRequiredCoreFields": [
+      {
+        "id": "it-basics",
+        "field": "prerequisites"
+      }
+    ],
+    "unverifiedCoreVideos": [
+      "it-basics",
+      "sql-intro",
+      "epr-intro",
+      "os-linux",
+      "networking",
+      "git",
+      "excel",
+      "statistics",
+      "sql-advanced",
+      "powerbi",
+      "python",
+      "api",
+      "business-analysis",
+      "testing",
+      "privacy",
+      "fhir",
+      "cloud",
+      "cyber",
+      "data-engineering",
+      "ai-basics",
+      "ai-governance",
+      "devops",
+      "interview"
+    ],
+    "weakCoreAssessmentBanks": [
+      {
+        "id": "it-basics",
+        "questions": 1
+      },
+      {
+        "id": "sql-intro",
+        "questions": 1
+      },
+      {
+        "id": "epr-intro",
+        "questions": 1
+      },
+      {
+        "id": "os-linux",
+        "questions": 1
+      },
+      {
+        "id": "networking",
+        "questions": 1
+      },
+      {
+        "id": "git",
+        "questions": 1
+      },
+      {
+        "id": "excel",
+        "questions": 1
+      },
+      {
+        "id": "statistics",
+        "questions": 1
+      },
+      {
+        "id": "sql-advanced",
+        "questions": 1
+      },
+      {
+        "id": "powerbi",
+        "questions": 1
+      },
+      {
+        "id": "python",
+        "questions": 1
+      },
+      {
+        "id": "api",
+        "questions": 1
+      },
+      {
+        "id": "business-analysis",
+        "questions": 1
+      },
+      {
+        "id": "testing",
+        "questions": 1
+      },
+      {
+        "id": "privacy",
+        "questions": 1
+      },
+      {
+        "id": "fhir",
+        "questions": 1
+      },
+      {
+        "id": "cloud",
+        "questions": 1
+      },
+      {
+        "id": "cyber",
+        "questions": 1
+      },
+      {
+        "id": "data-engineering",
+        "questions": 1
+      },
+      {
+        "id": "ai-basics",
+        "questions": 1
+      },
+      {
+        "id": "ai-governance",
+        "questions": 1
+      },
+      {
+        "id": "devops",
+        "questions": 1
+      },
+      {
+        "id": "interview",
+        "questions": 1
+      }
+    ],
+    "brokenCorePrerequisites": []
+  },
+  "releaseGate": "BLOCKED",
+  "externalReview": "NOT_TESTED",
+  "browserAndDeviceTests": "NOT_TESTED",
+  "automaticSync": "NOT_IMPLEMENTED",
+  "independentMastery": "NOT_IMPLEMENTED"
+}

@@ -1,0 +1,33 @@
+{
+  "version": "3.4",
+  "checks": {
+    "javascript_syntax": {
+      "passed": true,
+      "count": 52,
+      "errors": []
+    },
+    "script_references": {
+      "passed": true,
+      "count": 50,
+      "missing": []
+    },
+    "navigation_ids": {
+      "passed": true,
+      "count": 30,
+      "duplicates": []
+    },
+    "cache_paths": {
+      "passed": true,
+      "count": 66,
+      "missing": []
+    },
+    "project_rubrics": {
+      "passed": true,
+      "count": 8,
+      "note": "Records reviewed structurally in curriculum data; content not independently certified"
+    }
+  },
+  "browser": "NOT_TESTED",
+  "mobile": "NOT_TESTED",
+  "educational_review": "NOT_TESTED"
+}
