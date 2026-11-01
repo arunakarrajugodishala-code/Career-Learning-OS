@@ -1,0 +1,4 @@
+risk_id,fictional_asset,risk,likelihood,impact,mitigation,owner,review_status
+R-01,Training appointment app,Account compromise,Medium,High,MFA and least privilege,Training security lead,Draft
+R-02,Fictional reporting database,Accidental public access,Low,High,Private network and access review,Training cloud lead,Draft
+R-03,Fictional staff laptop,Device loss,Medium,Medium,Encryption and remote management,Training IT lead,Draft

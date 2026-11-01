@@ -1,0 +1,35 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "fictional-001",
+        "name": [
+          {
+            "text": "Fictional Training Person"
+          }
+        ],
+        "gender": "unknown"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-fictional-001",
+        "status": "final",
+        "code": {
+          "text": "Fictional training measurement"
+        },
+        "subject": {
+          "reference": "Patient/fictional-001"
+        },
+        "valueQuantity": {
+          "value": 42,
+          "unit": "training-units"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+test_id,requirement_id,scenario,expected_result,execution_status
+TC-01,REQ-01,Save outcome,Status and timestamp recorded,Not run
+TC-02,REQ-02,Attempt unauthorised edit,Edit rejected,Not run
+TC-03,REQ-03,Keyboard-select outcome,Selection works without mouse,Not run

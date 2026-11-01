@@ -1,0 +1,13 @@
+{
+  "version": "5.0.11",
+  "javascript_files_syntax_passed": 72,
+  "script_references_passed": 67,
+  "navigation_ids_unique": 42,
+  "cache_references_exist": 85,
+  "new_lessons": 6,
+  "new_questions": 30,
+  "browser_tests": "NOT RUN",
+  "educational_review": "PENDING",
+  "acceptance_gates_passed": 2,
+  "acceptance_gates_total": 9
+}

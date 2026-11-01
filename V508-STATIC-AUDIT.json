@@ -1,0 +1,11 @@
+{
+  "version": "5.0.8",
+  "scripts": 62,
+  "js_files": 63,
+  "routes": 39,
+  "cache_assets": 80,
+  "issues": [],
+  "browser_interaction": "NOT_TESTED",
+  "offline_device": "NOT_TESTED",
+  "production": "BLOCKED"
+}

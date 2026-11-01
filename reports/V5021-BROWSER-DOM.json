@@ -1,0 +1,482 @@
+{
+  "method": "Real headless Chromium DOM execution with locally inlined JS (no localhost access required)",
+  "limitations": [
+    "Not testing network loading, service workers, installability, or offline mode",
+    "Not a Safari or physical device test",
+    "Navigation triggered through DOM click rather than physical pointer"
+  ],
+  "results": [
+    {
+      "name": "desktop navigation count",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "name": "desktop route discovery-v23",
+      "pass": true,
+      "detail": "5702"
+    },
+    {
+      "name": "desktop route english-v23",
+      "pass": true,
+      "detail": "1474"
+    },
+    {
+      "name": "desktop route technical-v27",
+      "pass": true,
+      "detail": "4389"
+    },
+    {
+      "name": "desktop route specialisation-v26",
+      "pass": true,
+      "detail": "4910"
+    },
+    {
+      "name": "desktop route foundation-v25",
+      "pass": true,
+      "detail": "2958"
+    },
+    {
+      "name": "desktop route depth-v24",
+      "pass": true,
+      "detail": "4155"
+    },
+    {
+      "name": "desktop route resilience-v508",
+      "pass": true,
+      "detail": "1031"
+    },
+    {
+      "name": "desktop route verification-v507",
+      "pass": true,
+      "detail": "854"
+    },
+    {
+      "name": "desktop route assessment-v506",
+      "pass": true,
+      "detail": "1141"
+    },
+    {
+      "name": "desktop route coverage-v505",
+      "pass": true,
+      "detail": "3343"
+    },
+    {
+      "name": "desktop route advanced-v504",
+      "pass": true,
+      "detail": "2407"
+    },
+    {
+      "name": "desktop route healthcare-v503",
+      "pass": true,
+      "detail": "1979"
+    },
+    {
+      "name": "desktop route foundation-v502",
+      "pass": true,
+      "detail": "1753"
+    },
+    {
+      "name": "desktop route curriculum-evidence-v501",
+      "pass": true,
+      "detail": "939"
+    },
+    {
+      "name": "desktop route completion-v50",
+      "pass": true,
+      "detail": "1657"
+    },
+    {
+      "name": "desktop route learn",
+      "pass": true,
+      "detail": "15555"
+    },
+    {
+      "name": "desktop route deep",
+      "pass": true,
+      "detail": "8523"
+    },
+    {
+      "name": "desktop route foundation",
+      "pass": true,
+      "detail": "3810"
+    },
+    {
+      "name": "desktop route epr",
+      "pass": true,
+      "detail": "13391"
+    },
+    {
+      "name": "desktop route data-analyst",
+      "pass": true,
+      "detail": "3080"
+    },
+    {
+      "name": "desktop route epr-lab",
+      "pass": true,
+      "detail": "2582"
+    },
+    {
+      "name": "desktop route ba-qa",
+      "pass": true,
+      "detail": "2050"
+    },
+    {
+      "name": "desktop route security-cloud",
+      "pass": true,
+      "detail": "3011"
+    },
+    {
+      "name": "desktop route dev-data-ai",
+      "pass": true,
+      "detail": "2507"
+    },
+    {
+      "name": "desktop route mastery-v11",
+      "pass": true,
+      "detail": "10969"
+    },
+    {
+      "name": "desktop route pathway-v20",
+      "pass": true,
+      "detail": "4031"
+    },
+    {
+      "name": "desktop route careers",
+      "pass": true,
+      "detail": "4953"
+    },
+    {
+      "name": "desktop route audit",
+      "pass": true,
+      "detail": "32640"
+    },
+    {
+      "name": "desktop route projects-v34",
+      "pass": true,
+      "detail": "1527"
+    },
+    {
+      "name": "desktop route mastery-v33",
+      "pass": true,
+      "detail": "1084"
+    },
+    {
+      "name": "desktop route assessment-v32",
+      "pass": true,
+      "detail": "9609"
+    },
+    {
+      "name": "desktop route curriculum-v31",
+      "pass": true,
+      "detail": "9145"
+    },
+    {
+      "name": "desktop route readiness-v30",
+      "pass": true,
+      "detail": "1841"
+    },
+    {
+      "name": "desktop route recovery-v29",
+      "pass": true,
+      "detail": "920"
+    },
+    {
+      "name": "desktop route reliability-v28",
+      "pass": true,
+      "detail": "961"
+    },
+    {
+      "name": "desktop route final-qa",
+      "pass": true,
+      "detail": "1666"
+    },
+    {
+      "name": "desktop route coverage-v22",
+      "pass": true,
+      "detail": "1353"
+    },
+    {
+      "name": "desktop route career",
+      "pass": true,
+      "detail": "815"
+    },
+    {
+      "name": "desktop route settings",
+      "pass": true,
+      "detail": "177"
+    },
+    {
+      "name": "desktop route evidence-v509",
+      "pass": true,
+      "detail": "11829"
+    },
+    {
+      "name": "desktop route remediation-v5010",
+      "pass": true,
+      "detail": "2039"
+    },
+    {
+      "name": "desktop route pathways-v5013",
+      "pass": true,
+      "detail": "2039"
+    },
+    {
+      "name": "desktop route mastery-v5012",
+      "pass": true,
+      "detail": "1955"
+    },
+    {
+      "name": "desktop route practice-v5011",
+      "pass": true,
+      "detail": "1884"
+    },
+    {
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "desktop horizontal overflow",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile navigation count",
+      "pass": true,
+      "detail": "44"
+    },
+    {
+      "name": "mobile route discovery-v23",
+      "pass": true,
+      "detail": "5702"
+    },
+    {
+      "name": "mobile route english-v23",
+      "pass": true,
+      "detail": "1474"
+    },
+    {
+      "name": "mobile route technical-v27",
+      "pass": true,
+      "detail": "4389"
+    },
+    {
+      "name": "mobile route specialisation-v26",
+      "pass": true,
+      "detail": "4910"
+    },
+    {
+      "name": "mobile route foundation-v25",
+      "pass": true,
+      "detail": "2958"
+    },
+    {
+      "name": "mobile route depth-v24",
+      "pass": true,
+      "detail": "4155"
+    },
+    {
+      "name": "mobile route resilience-v508",
+      "pass": true,
+      "detail": "1031"
+    },
+    {
+      "name": "mobile route verification-v507",
+      "pass": true,
+      "detail": "854"
+    },
+    {
+      "name": "mobile route assessment-v506",
+      "pass": true,
+      "detail": "1141"
+    },
+    {
+      "name": "mobile route coverage-v505",
+      "pass": true,
+      "detail": "3343"
+    },
+    {
+      "name": "mobile route advanced-v504",
+      "pass": true,
+      "detail": "2407"
+    },
+    {
+      "name": "mobile route healthcare-v503",
+      "pass": true,
+      "detail": "1979"
+    },
+    {
+      "name": "mobile route foundation-v502",
+      "pass": true,
+      "detail": "1753"
+    },
+    {
+      "name": "mobile route curriculum-evidence-v501",
+      "pass": true,
+      "detail": "939"
+    },
+    {
+      "name": "mobile route completion-v50",
+      "pass": true,
+      "detail": "1657"
+    },
+    {
+      "name": "mobile route learn",
+      "pass": true,
+      "detail": "15555"
+    },
+    {
+      "name": "mobile route deep",
+      "pass": true,
+      "detail": "8523"
+    },
+    {
+      "name": "mobile route foundation",
+      "pass": true,
+      "detail": "3810"
+    },
+    {
+      "name": "mobile route epr",
+      "pass": true,
+      "detail": "13391"
+    },
+    {
+      "name": "mobile route data-analyst",
+      "pass": true,
+      "detail": "3080"
+    },
+    {
+      "name": "mobile route epr-lab",
+      "pass": true,
+      "detail": "2582"
+    },
+    {
+      "name": "mobile route ba-qa",
+      "pass": true,
+      "detail": "2050"
+    },
+    {
+      "name": "mobile route security-cloud",
+      "pass": true,
+      "detail": "3011"
+    },
+    {
+      "name": "mobile route dev-data-ai",
+      "pass": true,
+      "detail": "2507"
+    },
+    {
+      "name": "mobile route mastery-v11",
+      "pass": true,
+      "detail": "10969"
+    },
+    {
+      "name": "mobile route pathway-v20",
+      "pass": true,
+      "detail": "4031"
+    },
+    {
+      "name": "mobile route careers",
+      "pass": true,
+      "detail": "4953"
+    },
+    {
+      "name": "mobile route audit",
+      "pass": true,
+      "detail": "32640"
+    },
+    {
+      "name": "mobile route projects-v34",
+      "pass": true,
+      "detail": "1527"
+    },
+    {
+      "name": "mobile route mastery-v33",
+      "pass": true,
+      "detail": "1084"
+    },
+    {
+      "name": "mobile route assessment-v32",
+      "pass": true,
+      "detail": "9609"
+    },
+    {
+      "name": "mobile route curriculum-v31",
+      "pass": true,
+      "detail": "9145"
+    },
+    {
+      "name": "mobile route readiness-v30",
+      "pass": true,
+      "detail": "1841"
+    },
+    {
+      "name": "mobile route recovery-v29",
+      "pass": true,
+      "detail": "920"
+    },
+    {
+      "name": "mobile route reliability-v28",
+      "pass": true,
+      "detail": "961"
+    },
+    {
+      "name": "mobile route final-qa",
+      "pass": true,
+      "detail": "1666"
+    },
+    {
+      "name": "mobile route coverage-v22",
+      "pass": true,
+      "detail": "1353"
+    },
+    {
+      "name": "mobile route career",
+      "pass": true,
+      "detail": "815"
+    },
+    {
+      "name": "mobile route settings",
+      "pass": true,
+      "detail": "177"
+    },
+    {
+      "name": "mobile route evidence-v509",
+      "pass": true,
+      "detail": "11829"
+    },
+    {
+      "name": "mobile route remediation-v5010",
+      "pass": true,
+      "detail": "2039"
+    },
+    {
+      "name": "mobile route pathways-v5013",
+      "pass": true,
+      "detail": "2039"
+    },
+    {
+      "name": "mobile route mastery-v5012",
+      "pass": true,
+      "detail": "1955"
+    },
+    {
+      "name": "mobile route practice-v5011",
+      "pass": true,
+      "detail": "1884"
+    },
+    {
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile horizontal overflow",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 94,
+  "failed": 0
+}

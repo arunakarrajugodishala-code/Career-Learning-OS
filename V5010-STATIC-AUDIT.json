@@ -1,0 +1,15 @@
+{
+  "version": "5.0.10",
+  "jsFiles": 70,
+  "jsSyntaxErrors": [],
+  "scriptReferences": 65,
+  "missingScripts": [],
+  "navigationRoutes": 41,
+  "duplicateRoutes": [],
+  "offlineAssets": 83,
+  "missingOfflineAssets": [],
+  "newLessons": 6,
+  "newQuestions": 30,
+  "browserTests": "NOT RUN",
+  "expertReview": "PENDING"
+}

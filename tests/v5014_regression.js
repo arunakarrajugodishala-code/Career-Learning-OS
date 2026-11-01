@@ -1,0 +1,21 @@
+// v5.0.14 deterministic regression checks. No network or real-browser claims.
+'use strict';
+const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('assert');
+const root=path.resolve(__dirname,'..');const results=[];
+function test(name,fn){try{let detail=fn();results.push({name,status:'PASS',detail:detail||null});}catch(e){results.push({name,status:'FAIL',error:String(e.message||e)});}}
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const scripts=[...html.matchAll(/<script\s+src="([^"]+)"/g)].map(m=>m[1]);
+const routes=[...html.matchAll(/<button\s+data-view="([^"]+)"/g)].map(m=>m[1]);
+const cacheText=fs.readFileSync(path.join(root,'sw.js'),'utf8');
+let cache=[];test('Offline cache parse',()=>{cache=JSON.parse(cacheText.match(/const FILES=(\[[\s\S]*?\]);/)[1]);return cache.length+' entries'});
+test('Unique navigation routes',()=>{assert.equal(routes.length,new Set(routes).size);assert(routes.length>=40);return routes.length+' routes'});
+test('Unique scripts and existing files',()=>{assert.equal(scripts.length,new Set(scripts).size);for(const f of scripts)assert(fs.existsSync(path.join(root,f)),f);return scripts.length+' scripts'});
+test('Offline cache file existence',()=>{for(const f of cache)assert(fs.existsSync(path.join(root,f.replace(/^\.\//,''))),f);return cache.length+' assets'});
+test('All scripts included in offline cache',()=>{for(const f of scripts)assert(cache.includes('./'+f)||cache.includes(f),'not cached: '+f);return scripts.length+' cached scripts'});
+test('Navigation click handler exists',()=>{let app=fs.readFileSync(path.join(root,'app.js'),'utf8');assert(/nav button/.test(app)&&/dataset.view/.test(app)&&/onclick/.test(app));return 'handler present; click behaviour untested'});
+test('Backup and persistence primitives exist',()=>{let app=fs.readFileSync(path.join(root,'app.js'),'utf8');assert(/localStorage\.getItem/.test(app));assert(/localStorage\.setItem/.test(app));assert(/JSON\.parse/.test(app));return 'static only; restore untested'});
+test('Service worker version updated',()=>{assert(cacheText.includes("clos-v5.0.16-candidate"));return 'cache version unique'});
+test('Learning question structure and answer indices',()=>{const names=['foundation-course-v502-data.js','healthcare-v503-data.js','advanced-v504-data.js','remediation-v5010-data.js','practice-v5011-data.js','pathways-v5013-data.js'];let count=0,units=0;for(const name of names){if(!fs.existsSync(path.join(root,name)))continue;let ctx={window:{CLOS:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,name),'utf8'),ctx,{filename:name,timeout:3000});for(const [key,arr] of Object.entries(ctx.window.CLOS)){if(!Array.isArray(arr))continue;for(const u of arr){if(!Array.isArray(u.questions))continue;units++;assert(u.id&&u.title,name+' missing identity');for(const q of u.questions){assert(typeof q.prompt==='string'&&q.prompt.trim(),u.id+' prompt');assert(Array.isArray(q.choices)&&q.choices.length>=2,u.id+' choices');assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<q.choices.length,u.id+' answer');assert(typeof q.explanation==='string'&&q.explanation.trim(),u.id+' explanation');assert(new Set(q.choices.map(String)).size===q.choices.length,u.id+' duplicate choices');count++;}}}}assert(count>=100,'unexpectedly low question count');return units+' lessons / '+count+' structurally valid questions'});
+test('Safe output-escaping function exists',()=>{const app=fs.readFileSync(path.join(root,'app.js'),'utf8');assert(/const esc=/.test(app)&&/&#39;/.test(app));return 'escape helper present; security audit pending'});
+const summary={version:'5.0.14',type:'STATIC_REGRESSION_ONLY',passed:results.filter(x=>x.status==='PASS').length,failed:results.filter(x=>x.status==='FAIL').length,results,browser:'NOT_TESTED',mobile:'NOT_TESTED',offline:'NOT_TESTED',backupRestore:'NOT_TESTED',educationalReview:'PENDING'};
+fs.mkdirSync(path.join(root,'reports'),{recursive:true});fs.writeFileSync(path.join(root,'reports','V5014-REGRESSION.json'),JSON.stringify(summary,null,2));console.log(JSON.stringify({passed:summary.passed,failed:summary.failed,failures:results.filter(x=>x.status==='FAIL')},null,2));if(summary.failed)process.exitCode=1;

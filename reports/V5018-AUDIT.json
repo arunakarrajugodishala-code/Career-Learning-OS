@@ -1,0 +1,9 @@
+{
+  "version": "5.0.18",
+  "node_checks": 81,
+  "scripts": 72,
+  "cache_references": 90,
+  "integration_assertions": 9,
+  "browser": "not tested",
+  "release_gates_passed": 2
+}

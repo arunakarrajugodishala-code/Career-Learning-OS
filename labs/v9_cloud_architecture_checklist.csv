@@ -1,0 +1,7 @@
+category,review_question,status,evidence
+Identity,Are roles least-privilege and MFA enabled?,Not reviewed,
+Networking,Is the database private?,Not reviewed,
+Secrets,Are credentials kept out of source code?,Not reviewed,
+Resilience,Have backups and restore tests been planned?,Not reviewed,
+Cost,Are alerts and budgets configured?,Not reviewed,
+Monitoring,"Are logs, alerts and owners defined?",Not reviewed,

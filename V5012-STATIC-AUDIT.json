@@ -1,0 +1,13 @@
+{
+  "version": "5.0.12",
+  "js_checked": 70,
+  "syntax_errors": [],
+  "scripts": 69,
+  "missing_scripts": [],
+  "navigation_count": 43,
+  "duplicate_views": [],
+  "cached_assets": 87,
+  "missing_cached_assets": [],
+  "browser_test": "not run",
+  "independent_review": "pending"
+}

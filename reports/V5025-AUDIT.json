@@ -1,0 +1,31 @@
+{
+  "version": "5.0.25",
+  "feature": "Manual pass/fail/untested device evidence, notes and export",
+  "checks": {
+    "javascript_syntax": {
+      "count": 75,
+      "pass": true,
+      "errors": []
+    },
+    "scripts": {
+      "count": 74,
+      "pass": true,
+      "missing": []
+    },
+    "navigation": {
+      "count": 46,
+      "pass": true
+    },
+    "offline_assets": {
+      "count": 92,
+      "pass": true,
+      "missing": []
+    },
+    "evidence_source_assertions": {
+      "count": 6,
+      "pass": true,
+      "output": "6 device evidence source checks passed\n"
+    }
+  },
+  "real_device_tested": false
+}

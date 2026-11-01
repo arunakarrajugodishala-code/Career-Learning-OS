@@ -1,0 +1,14 @@
+{
+  "js_files": 73,
+  "syntax_failures": [],
+  "script_count": 72,
+  "missing_scripts": [],
+  "navigation_count": 44,
+  "duplicate_nav": 0,
+  "cache_assets": 90,
+  "missing_assets": [],
+  "quiz_unit_tests": 10,
+  "browser_tests": "NOT RUN",
+  "release_gates_passed": 2,
+  "release_gates_total": 9
+}

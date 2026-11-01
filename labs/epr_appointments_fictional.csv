@@ -1,0 +1,13 @@
+fictional_record_id,date,service,booking_status,outcome,waiting_minutes
+F001,2026-10-01,Outpatients,Booked,Seen,15
+F002,2026-10-01,Diagnostics,Booked,Cancelled,20
+F003,2026-10-02,Outpatients,Booked,Did not attend,0
+F004,2026-10-02,Diagnostics,Booked,Seen,0
+F005,2026-10-03,Outpatients,Booked,Seen,35
+F006,2026-10-03,Diagnostics,Booked,Cancelled,40
+F007,2026-10-04,Outpatients,Booked,Did not attend,0
+F008,2026-10-04,Diagnostics,Booked,Seen,0
+F009,2026-10-05,Outpatients,Booked,Seen,55
+F010,2026-10-05,Diagnostics,Booked,Cancelled,60
+F011,2026-10-06,Outpatients,Booked,Did not attend,0
+F012,2026-10-06,Diagnostics,Booked,Seen,0

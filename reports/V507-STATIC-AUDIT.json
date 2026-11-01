@@ -1,0 +1,14 @@
+{
+  "version": "5.0.7",
+  "source": "v5.0.6",
+  "script_count": 61,
+  "navigation_count": 38,
+  "js_syntax_checked": 66,
+  "missing_scripts": [],
+  "missing_cached_assets": [],
+  "duplicate_nav": false,
+  "js_syntax_errors": [],
+  "browser_e2e": "NOT_TESTED: local URL blocked by administrator",
+  "device_tests": "NOT_TESTED",
+  "release": "BLOCKED"
+}

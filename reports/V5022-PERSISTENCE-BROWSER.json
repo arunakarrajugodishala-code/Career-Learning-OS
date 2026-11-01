@@ -1,0 +1,50 @@
+{
+  "method": "Headless Chromium DOM with inlined local scripts and synchronous simulated localStorage",
+  "limitations": [
+    "Not physical Safari",
+    "Not actual browser disk persistence",
+    "Not service-worker offline/network testing"
+  ],
+  "results": [
+    {
+      "name": "mark-complete button exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "completion written to storage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "completion survives reload",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "backup import field exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "valid backup imported",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid JSON rejected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid backup leaves saved state intact",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "passed": 7,
+  "failed": 0,
+  "syntax_files": 81,
+  "syntax_failures": [],
+  "missing_script_refs": []
+}

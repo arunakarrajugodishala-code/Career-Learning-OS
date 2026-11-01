@@ -1,0 +1,63 @@
+{
+  "version": "5.0.14",
+  "type": "STATIC_REGRESSION_ONLY",
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Offline cache parse",
+      "status": "PASS",
+      "detail": "90 entries"
+    },
+    {
+      "name": "Unique navigation routes",
+      "status": "PASS",
+      "detail": "44 routes"
+    },
+    {
+      "name": "Unique scripts and existing files",
+      "status": "PASS",
+      "detail": "71 scripts"
+    },
+    {
+      "name": "Offline cache file existence",
+      "status": "PASS",
+      "detail": "90 assets"
+    },
+    {
+      "name": "All scripts included in offline cache",
+      "status": "PASS",
+      "detail": "71 cached scripts"
+    },
+    {
+      "name": "Navigation click handler exists",
+      "status": "PASS",
+      "detail": "handler present; click behaviour untested"
+    },
+    {
+      "name": "Backup and persistence primitives exist",
+      "status": "PASS",
+      "detail": "static only; restore untested"
+    },
+    {
+      "name": "Service worker version updated",
+      "status": "PASS",
+      "detail": "cache version unique"
+    },
+    {
+      "name": "Learning question structure and answer indices",
+      "status": "PASS",
+      "detail": "51 lessons / 195 structurally valid questions"
+    },
+    {
+      "name": "Safe output-escaping function exists",
+      "status": "PASS",
+      "detail": "escape helper present; security audit pending"
+    }
+  ],
+  "browser": "NOT_TESTED",
+  "mobile": "NOT_TESTED",
+  "offline": "NOT_TESTED",
+  "backupRestore": "NOT_TESTED",
+  "educationalReview": "PENDING"
+}

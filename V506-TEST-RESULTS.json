@@ -1,0 +1,13 @@
+{
+  "version": "5.0.6",
+  "js_files": 65,
+  "syntax_errors": [],
+  "script_references": 60,
+  "missing_scripts": [],
+  "nav_routes": 37,
+  "duplicate_routes": [],
+  "missing_cache_assets": [],
+  "browser_tests": "NOT_TESTED",
+  "content_review": "REVIEW",
+  "production": "BLOCKED"
+}

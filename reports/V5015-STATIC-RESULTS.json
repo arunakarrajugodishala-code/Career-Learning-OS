@@ -1,0 +1,12 @@
+{
+  "version": "5.0.15",
+  "javascript_files_checked": 77,
+  "syntax_failures": [],
+  "script_references": 71,
+  "missing_scripts": [],
+  "cache_references": 89,
+  "missing_cache_files": [],
+  "browser_test": "BLOCKED: Chromium ERR_BLOCKED_BY_ADMINISTRATOR",
+  "acceptance_gates_passed": 2,
+  "acceptance_gates_total": 9
+}

@@ -1,0 +1,7 @@
+fictional_id,service,outcome,wait_minutes
+TRAIN-001,Outpatients,Seen,20
+TRAIN-002,Diagnostics,Cancelled,0
+TRAIN-003,Outpatients,Did not attend,0
+TRAIN-004,Diagnostics,Seen,45
+TRAIN-005,Outpatients,Seen,35
+TRAIN-006,Diagnostics,Seen,55

@@ -1,0 +1,11 @@
+{
+  "version": "5.0.19",
+  "javascript_syntax_files": 81,
+  "engine_unit_tests": 8,
+  "integrated_modules": 4,
+  "scripts_referenced": 72,
+  "missing_scripts": [],
+  "browser_test": "NOT RUN",
+  "device_test": "NOT RUN",
+  "educational_review": "PENDING"
+}

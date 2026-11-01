@@ -1,0 +1,20 @@
+{
+  "version": "5.0.20",
+  "engine_tests_passed": 8,
+  "integration_assertions_passed": 15,
+  "newly_integrated_modules": [
+    "foundation-v25-ui.js",
+    "curriculum-v31-ui.js",
+    "specialisation-v26-ui.js",
+    "technical-v27-ui.js",
+    "depth-v24-ui.js"
+  ],
+  "javascript_syntax_passed": 81,
+  "script_references": 72,
+  "offline_asset_references": 90,
+  "missing_offline_assets": [],
+  "real_browser_tests": "NOT RUN",
+  "device_tests": "NOT RUN",
+  "release_gates_passed": 2,
+  "release_gates_total": 9
+}

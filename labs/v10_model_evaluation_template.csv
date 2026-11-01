@@ -1,0 +1,2 @@
+experiment,dataset,split_strategy,baseline,metric,limitations,review_status
+Fictional example,Synthetic only,Train/validation/test,Majority class,F1 score,No clinical applicability,Not reviewed

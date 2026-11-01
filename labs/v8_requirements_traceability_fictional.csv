@@ -1,0 +1,4 @@
+requirement_id,fictional_requirement,priority,test_case_id,status
+REQ-01,Save appointment outcome with timestamp,Must,TC-01,Not run
+REQ-02,Reject unauthorised edits,Must,TC-02,Not run
+REQ-03,Keyboard accessible dropdown,Should,TC-03,Not run

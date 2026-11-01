@@ -1,0 +1,10 @@
+{
+  "version": "5.0.23",
+  "service_worker_simulated_tests": 9,
+  "passed": 9,
+  "js_syntax_files": 83,
+  "script_refs": 72,
+  "cache_refs": 90,
+  "real_browser_offline": "blocked by environment",
+  "release_gates": "2/9"
+}

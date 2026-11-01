@@ -1,0 +1,10 @@
+{
+  "version": "5.0.24",
+  "js_syntax_passed": 74,
+  "script_refs_valid": 73,
+  "cache_refs_valid": 91,
+  "manual_device_tests": "not executed",
+  "real_offline_tests": "not executed",
+  "release_gates": "2/9",
+  "errors": []
+}

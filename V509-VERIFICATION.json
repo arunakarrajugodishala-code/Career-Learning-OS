@@ -1,0 +1,17 @@
+{
+  "version": "5.0.9",
+  "static_checks": {
+    "scripts_all_exist": true,
+    "nav_unique": true,
+    "offline_assets_exist": true,
+    "js_syntax": true,
+    "lesson_module_present": true
+  },
+  "js_files": 68,
+  "script_references": 63,
+  "navigation_ids": 40,
+  "offline_asset_references": 81,
+  "browser_test": "NOT TESTED",
+  "content_review": "NOT REVIEWED",
+  "production": "BLOCKED"
+}

@@ -1,0 +1,383 @@
+{
+  "version": "5.0.16",
+  "tests": [
+    {
+      "check": "syntax career-v10-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax projects-v34.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax advanced-v504-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v9-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax readiness-v30.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-20.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax assessment-v32.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax evidence-v509.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax foundation-v25-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax foundation-v4.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v8-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax healthcare-v503-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax practice-v5011-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax roadmaps.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-15.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax specialisation-v26-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax practice-v5011-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v11-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v9-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax specialisation-v26-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax advanced-v504-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax completion-v50.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax remediation-v5010-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax foundation-v25-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v11-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v5-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax curriculum-v31-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax deep-lessons.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax foundation-course-v502-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-18.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax recovery-v29.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v5012-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax technical-v27-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax depth-v24-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax review-v12-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-13.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax epr-v6-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax remediation-v5010-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax curriculum-v31-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax coverage-v505.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v33.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax topics-extra.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax reliability-v28.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-19.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax review-v12-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax technical-v27-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax verification-v507.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax coverage-v22.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax release-qa.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax epr-v6.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v5012-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax curriculum-evidence-v501.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v8-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v7-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestones-engine.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax assessment-v506.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax resilience-v508.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax mastery-v5.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-16.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax pathways-v5013-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax depth-v24-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax healthcare-v503-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-17.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax milestone-14.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v10-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax foundation-course-v502-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax career-v7-ui.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax features-v23.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax pathways-v5013-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "syntax sw.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "backup deterministic tests",
+      "passed": true,
+      "detail": "\n      \"status\": \"PASS\",\n      \"message\": \"Backup imported. Reload or open a lesson to see updated progress.\"\n    },\n    {\n      \"name\": \"user cancels import\",\n      \"status\": \"PASS\",\n      \"message\": \"Import cancelled; current progress unchanged\"\n    },\n    {\n      \"name\": \"reject array as state\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Unsupported backup format\"\n    },\n    {\n      \"name\": \"reject missing notes\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Invalid notes records\"\n    },\n    {\n      \"name\": \"reject malicious prototype key\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Unsupported backup format\"\n    },\n    {\n      \"name\": \"reject invalid completion values\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Invalid completion records\"\n    },\n    {\n      \"name\": \"reject malformed JSON\",\n      \"status\": \"PASS\",\n      \"message\": \"Import failed: Expected property name or '}' in JSON at position 1 (line 1 column 2)\"\n    }\n  ]\n}\n"
+    },
+    {
+      "check": "regression updated cache",
+      "passed": true,
+      "detail": "{\n  \"passed\": 10,\n  \"failed\": 0,\n  \"failures\": []\n}\n"
+    },
+    {
+      "check": "HTML scripts, nav uniqueness and cache paths",
+      "passed": true,
+      "detail": "71 scripts, 44 nav, 90 cached files"
+    }
+  ],
+  "browser": "NOT_TESTED",
+  "iphone": "NOT_TESTED",
+  "offline": "NOT_TESTED"
+}

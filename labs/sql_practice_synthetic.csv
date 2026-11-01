@@ -1,0 +1,6 @@
+visit_id,department,wait_minutes,status
+101,Outpatient,20,Completed
+102,Outpatient,45,Completed
+103,Emergency,80,Completed
+104,Emergency,35,Cancelled
+105,Outpatient,30,Completed
