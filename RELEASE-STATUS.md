@@ -1,25 +1,23 @@
-# Career Learning OS v5.0.27
+# Career Learning OS v5.1.0
 
-This is a corrected review build, not a 9/9 approved final release.
+A free self-study app for GitHub Pages. This is a working learning workspace, not a fully reviewed beginner-to-advanced academy or accredited qualification. Full acceptance remains pending.
 
-## Changes
-- Restored labelled navigation landmark used by accessibility and diagnostic checks.
-- Backup opens the protected inspect/restore/undo workflow.
-- Home returns keyboard focus to main content; Escape closes the mobile menu.
-- Fixed diagnostic route counting to exclude the Home control.
-- Updated service-worker cache version for the changed files.
+## Start
+Open Home → My learning. Search Lesson library, open a lesson, read its worked example, practise, save notes, and answer knowledge questions. Practice completion is self-reported. Original course pages retain their original progress records; the unified library records new activity separately.
 
-## Verification
-82 automated checks passed, including all 76 JavaScript syntax checks and six regression test programs. All 46 navigation routes opened with content in the managed Chrome preview. Backup displayed the protected workflow with restore disabled before inspection. Details: reports/V5027-AUTOMATED.json and reports/V5027-RELEASE.json.
+- 169 indexed existing lessons and project tasks; 411 knowledge questions. Some entries are short practical prompts rather than full courses. Indexing is not coverage certification.
+- 15 role-specific portfolio project briefs, interview reasoning examples and editable application worksheets in Career centre.
+- Backup exports all supported current app records, including nested learning state, practice history, project evidence and career worksheets. The local safety snapshots and temporary diagnostics are excluded.
+- Full schema 2 restores replace supported records after inspection and confirmation, with an undo snapshot. Legacy schema 1 imports preserve their nested learning state and leave auxiliary records untouched. Reload after restoration before using older course pages.
+- Written app content and lab assets are precached; external reference sites and videos require internet. No real offline AI tutor, auto sync or remote account storage is connected.
 
-## Still required for full acceptance
-Physical iPhone/Safari checks; HTTPS offline install/restart/update; cross-browser backup restoration; exhaustive form, accessibility and security review; qualified educational and answer-key review; individual resource verification and current career guidance review. Historical audit files refer to earlier builds. No overall gate score is asserted because the inherited documents define inconsistent gate totals (9, 10 and 13).
+## Checks
+`node tests/v51_regression.cjs` runs 19 regression scenarios. `node tests/v5023_offline_simulation.cjs` runs 9 service-worker simulation scenarios and writes V51 evidence. `reports/V51-CHECKS.json` records 78 JavaScript parse checks and 7 test program executions. `reports/V51-BROWSER.json` records actual Chrome interactions across all 48 routes and the new main workflows. Simulation, syntax and route checks have distinct meanings.
 
-## One GitHub upload
-1. Export progress from your existing app and keep the backup.
-2. Download a ZIP of your existing repository for rollback.
-3. Extract this ZIP and upload its contents to your GitHub Pages repository root, preserving icons/, labs/, tests/ and reports/.
-4. Commit once. Confirm GitHub Pages deployment succeeds.
-5. Open the deployed HTTPS page, reload once, then test Device Evidence, backup restore on a disposable profile and offline reopening.
+## Acceptance
+Nine current gates appear in Nine release gates, Release QA and Release readiness. No overall PASS is asserted. Outstanding: full syllabus depth and mapping, qualified lesson/answer review, individual external video/licence/accessibility review, full accessibility and security review, comprehensive form coverage, real iPhone and installed offline/update checks, and physical device transfer. Older version reports are historical evidence and are superseded for current status.
 
-Progress remains local to each browser. Use export/import to transfer it. Backups contain your notes; keep them private. This build preserves the existing progress key. No automatic sync or accredited qualification is supplied.
+## Updates and recovery
+Deploy the repository root to GitHub Pages. Keep index.html at the root and preserve icons/, labs/, tests/ and reports/. Application assets are served from one installed cache snapshot. A changed service-worker cache version installs the next snapshot; reload after a successful update. Existing learning storage keys are preserved. Export before updating or clearing storage. Browser clearing and private browsing may remove progress and snapshots. For rollback, revert the release commit and deploy the previous source; do not clear local storage.
+
+No secrets or real patient data belong in notes, public portfolios or the repository. User-entered data is rendered as text. Local browser data is not encrypted. Keep exported backups private. Check the actual vacancy and current official immigration guidance before career decisions; this app does not determine eligibility.

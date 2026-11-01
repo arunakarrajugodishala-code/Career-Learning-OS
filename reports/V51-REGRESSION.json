@@ -1,0 +1,87 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "catalogueLessons": 169,
+  "knowledgeQuestions": 411,
+  "tests": [
+    {
+      "name": "full backup includes practice history and evidence",
+      "status": "PASS"
+    },
+    {
+      "name": "restore into independent storage retains nested state",
+      "status": "PASS"
+    },
+    {
+      "name": "full restore replaces supported data and preserves unrelated keys",
+      "status": "PASS"
+    },
+    {
+      "name": "undo restores prior auxiliary data",
+      "status": "PASS"
+    },
+    {
+      "name": "legacy backup retains all nested state and auxiliary data",
+      "status": "PASS"
+    },
+    {
+      "name": "reject malformed JSON",
+      "status": "PASS"
+    },
+    {
+      "name": "reject unknown schema",
+      "status": "PASS"
+    },
+    {
+      "name": "reject array state",
+      "status": "PASS"
+    },
+    {
+      "name": "reject unsafe nested property",
+      "status": "PASS"
+    },
+    {
+      "name": "reject unknown storage key",
+      "status": "PASS"
+    },
+    {
+      "name": "reject bad assessment",
+      "status": "PASS"
+    },
+    {
+      "name": "reject unsafe auxiliary record",
+      "status": "PASS"
+    },
+    {
+      "name": "reject oversized backup",
+      "status": "PASS"
+    },
+    {
+      "name": "quota failure rolls back all supported records",
+      "status": "PASS"
+    },
+    {
+      "name": "snapshot failure leaves records unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "catalogue has unique stable source IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "catalogue preserves question answer indexes",
+      "status": "PASS"
+    },
+    {
+      "name": "all 15 roles retain named module sequences",
+      "status": "PASS"
+    },
+    {
+      "name": "all HTML scripts and offline assets exist",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "VM tests use synthetic storage; physical-device restoration and human content review remain outstanding."
+  ]
+}

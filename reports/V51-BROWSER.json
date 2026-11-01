@@ -1,0 +1,27 @@
+{
+  "version": "5.1.0",
+  "method": "Managed Chrome browser, actual UI interactions on HTTP preview",
+  "routes_opened": 48,
+  "routes_with_content": 48,
+  "captured_application_errors": [],
+  "verified_workflows": [
+    "Search a lesson by title",
+    "Save and reload a note containing literal HTML text",
+    "Log practice and see it after reload",
+    "Reject incomplete quiz submission",
+    "Score a complete synthetic SQL attempt 5/5",
+    "Export full JSON backup",
+    "Inspect exported backup and show schema/counts",
+    "Restore after confirmation",
+    "Undo restore and recover a career worksheet",
+    "Select role and save a role-specific career worksheet"
+  ],
+  "limitations": [
+    "No physical iPhone/Safari test",
+    "No viewport resize API available; narrow mobile layout not reverified in this run",
+    "Preview HTTP does not provide Service Worker API",
+    "Not every older form or assessment was exercised",
+    "No independent educational or security signoff"
+  ],
+  "dialog_automation_note": "Restore click timed out while confirmation was open; the visible confirmation was then accepted, and restore and undo completed successfully."
+}

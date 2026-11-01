@@ -1,0 +1,49 @@
+{
+  "version": "5.1.0",
+  "method": "Node VM simulated Service Worker CacheStorage, network and lifecycle",
+  "limitations": [
+    "Not real browser Service Worker registration",
+    "No real offline browser navigation or iPhone Safari verification",
+    "Does not prove disk storage persistence"
+  ],
+  "passed": 9,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "service worker installs and precaches all referenced assets",
+      "pass": true
+    },
+    {
+      "name": "activation claims clients",
+      "pass": true
+    },
+    {
+      "name": "offline cached HTML responds",
+      "pass": true
+    },
+    {
+      "name": "offline cached script responds",
+      "pass": true
+    },
+    {
+      "name": "offline unknown navigation falls back to app shell",
+      "pass": true
+    },
+    {
+      "name": "offline missing asset returns 503",
+      "pass": true
+    },
+    {
+      "name": "online unknown response is served without expanding the app cache",
+      "pass": true
+    },
+    {
+      "name": "cross-origin requests are not intercepted",
+      "pass": true
+    },
+    {
+      "name": "non-GET requests are not intercepted",
+      "pass": true
+    }
+  ]
+}
