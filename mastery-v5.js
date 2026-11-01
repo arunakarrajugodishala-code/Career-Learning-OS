@@ -3,7 +3,7 @@ window.CLOS.masteryV5=[
     "subject": "computers",
     "resource": {
       "label": "GCFLearnFree Computer Basics",
-      "url": "https://edu.gcfglobal.org/en/computerbasics/"
+      "url": "https://www.freecodecamp.org/news/learn-hardware-cloud-devops-networking-security-databases-dns-git-and-linux"
     },
     "videoSearch": "https://www.youtube.com/results?search_query=computers+beginner+tutorial+freecodecamp",
     "videoStatus": "SEARCH_LINK_NOT_REVIEWED",

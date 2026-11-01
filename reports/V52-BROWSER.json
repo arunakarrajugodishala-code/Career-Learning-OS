@@ -1,0 +1,33 @@
+{
+  "version": "5.2.0",
+  "method": "Managed Chrome UI on HTTP preview",
+  "checks": [
+    "Daily focus and time preference saved",
+    "Three-card healthcare recall session",
+    "Rating disabled before answer reveal",
+    "Again and remembered ratings advance cards",
+    "Session summary reflects three reviews and two remembered",
+    "Recommended lesson opens in the full lesson view",
+    "Bookmark saved and listed on the plan",
+    "Local resource problem saved and displayed on Source health",
+    "Scenario requires written reasoning before model reveal",
+    "Scenario model, rubric and reflection save work",
+    "Existing notes remain visible after the update",
+    "Plan, review activity, bookmarks and reflection persisted after reload",
+    "All seven scenario entry buttons and seven video/source panels render",
+    "No horizontal overflow at the available desktop viewport",
+    "No captured application console errors during the new workflow checks"
+  ],
+  "sourceMappingFixes": [
+    "CSV analysis and reproducibility \u2192 CSV",
+    "Defect reports and reproducibility \u2192 QA",
+    "Boundary testing and reproducible defects \u2192 QA",
+    "Governance and reproducible reporting \u2192 privacy",
+    "IP address/gateway/DNS troubleshooting \u2192 networking"
+  ],
+  "limitations": [
+    "Not all legacy form actions were retested",
+    "No physical iPhone, screen-reader or narrow-viewport verification in this run",
+    "Self-rated recall and scenarios are not independent grading"
+  ]
+}

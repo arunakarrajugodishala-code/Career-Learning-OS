@@ -483,7 +483,7 @@ window.CLOS.topics.push(...[
     "resources": [
       {
         "label": "Free reference / learning material",
-        "url": "https://www.iiba.org/business-analysis-resources/"
+        "url": "https://www.iiba.org/career-resources/business-analysis-resources/"
       }
     ],
     "video": {

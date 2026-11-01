@@ -1,0 +1,97 @@
+{
+  "version": "5.2.0",
+  "passed": 21,
+  "failed": 0,
+  "recallCards": 411,
+  "scenarios": 7,
+  "checks": [
+    {
+      "name": "Again schedules a short retry",
+      "status": "PASS"
+    },
+    {
+      "name": "Remembered uses the documented day steps",
+      "status": "PASS"
+    },
+    {
+      "name": "Again resets a mature card",
+      "status": "PASS"
+    },
+    {
+      "name": "malformed previous stage cannot produce a NaN due date",
+      "status": "PASS"
+    },
+    {
+      "name": "remembering after a failed card restarts at one day",
+      "status": "PASS"
+    },
+    {
+      "name": "unknown ratings are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "due cards are oldest first, then unseen",
+      "status": "PASS"
+    },
+    {
+      "name": "future cards are not presented as due",
+      "status": "PASS"
+    },
+    {
+      "name": "empty deck is safe",
+      "status": "PASS"
+    },
+    {
+      "name": "review queues are bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "history is bounded to 2000 activity records",
+      "status": "PASS"
+    },
+    {
+      "name": "one review creates one distinct activity milestone",
+      "status": "PASS"
+    },
+    {
+      "name": "repeated same card cannot inflate distinct-card milestones",
+      "status": "PASS"
+    },
+    {
+      "name": "scenario completion counts unique cases",
+      "status": "PASS"
+    },
+    {
+      "name": "empty activity is seven inactive days",
+      "status": "PASS"
+    },
+    {
+      "name": "recall cards have stable unique identifiers",
+      "status": "PASS"
+    },
+    {
+      "name": "CSV and reproducible QA tasks are not misclassified as EPR",
+      "status": "PASS"
+    },
+    {
+      "name": "each learning area has lesson content",
+      "status": "PASS"
+    },
+    {
+      "name": "all seven scenarios have model reasoning, four criteria and real lesson links",
+      "status": "PASS"
+    },
+    {
+      "name": "new coach data survives full backup validation",
+      "status": "PASS"
+    },
+    {
+      "name": "all new scripts are precached and present",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Rule-based self-rated recall, not FSRS or independent grading",
+    "VM tests do not replace browser and real-device tests"
+  ]
+}

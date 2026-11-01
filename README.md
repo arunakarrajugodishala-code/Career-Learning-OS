@@ -1,4 +1,4 @@
-# Career Learning OS v5.1.1
+# Career Learning OS v5.2.0
 
 A free self-study app for GitHub Pages. This is a working learning workspace, not a fully reviewed beginner-to-advanced academy or accredited qualification. Full acceptance remains pending.
 
@@ -31,3 +31,17 @@ Video learning panels appear beside lesson headings, including after dropdown ch
 Publisher pages were checked on 1 November 2026 using web retrieval and HTTP checks. The HTTP check reached 55 of the original 57 unique publisher URLs; two ICO pages rejected automated HTTP retrieval but were available through web retrieval. No full-playback, licence or individual topic-completeness approval is asserted. Resource pages can contain optional paid courses, products or services. Watching the selected resource does not require buying those extras.
 
 Run `node tests/v511_resources.cjs` for the assignment and safe-URL checks. See reports/V511-RESOURCE-COVERAGE.json, reports/V511-RESOURCE-URL-CHECKS.json and reports/V511-BROWSER.json.
+
+## v5.2.0 — learning adventures
+
+My learning now opens a daily plan. Choose a learning focus and a 10, 20 or 30-minute target, then save the plan. Recommendations use the selected focus, recorded knowledge attempts, due recall cards and practice activity. The time is a target, not measured study time.
+
+Recall uses the existing 411-question catalogue as think/reveal/self-rate cards. Again is due in 10 minutes; remembered cards progress through 1, 3, 7, 14 and 30-day intervals. These are original transparent rules, not FSRS or predictive memory modelling. Cards and activity are not professionally verified learning outcomes.
+
+Scenario studio contains seven original fictional cases: SQL duplicates, patient-record mismatch, phishing, safe CSV import, acceptance criteria, unsupported AI summaries and Wi-Fi diagnosis. Write reasoning, compare with a model and save a rubric-based reflection. Reflection is self-review, not expert grading or workplace authorisation.
+
+Use Save for later inside a lesson. Bookmarks appear in the daily plan. The seven-day activity display counts recall and scenario reflections; older course progress remains intact. Activity milestones recognise participation without missed-day penalties.
+
+Source health shows the dated 138-URL audit, repairs and unresolved checks. Under a video panel, expand What to watch to save a resource problem locally. Reports can be exported from Source health; they are not sent automatically. All new progress is part of the existing learning state and included in full backups.
+
+Research and decisions: reports/V52-REPOSITORY-COMPARISON.md. Regression and browser evidence: reports/V52-*.json. No upstream platform or curriculum was copied. Existing acceptance limits still apply.

@@ -1,0 +1,1099 @@
+{
+  "checkedAt": "2026-11-01",
+  "method": "HTTP publisher-page retrieval; video evidence is markup, not playback verification",
+  "results": [
+    {
+      "url": "https://cs50.harvard.edu/x/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/x/",
+      "title": "CS50x 2026",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://sqlbolt.com/",
+      "status": 200,
+      "finalUrl": "https://sqlbolt.com/",
+      "title": "SQLBolt - Learn SQL - Introduction to SQL",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://digital.nhs.uk/",
+      "status": 200,
+      "finalUrl": "https://digital.nhs.uk/",
+      "title": "Home - NHS England Digital",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://hl7.org/fhir/",
+      "status": 200,
+      "finalUrl": "https://hl7.org/fhir/",
+      "title": "Index - FHIR v5.0.0",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "status": 200,
+      "finalUrl": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "title": "The Linux command line for beginners | Ubuntu",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.cloudflare.com/learning/dns/what-is-dns/",
+      "status": 200,
+      "finalUrl": "https://www.cloudflare.com/learning/dns/what-is-dns/",
+      "title": "What is DNS? | Learning Center",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://skills.github.com/",
+      "status": 200,
+      "finalUrl": "https://skills.github.com/",
+      "title": "Redirecting to GitHub Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/excel",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/en-us/excel/",
+      "title": "Excel help &amp; learning | Microsoft Support",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "status": 200,
+      "finalUrl": "https://www.khanacademy.org/math/statistics-probability",
+      "title": "Client Challenge",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "status": 200,
+      "finalUrl": "https://www.postgresql.org/docs/current/tutorial.html",
+      "title": "PostgreSQL: Documentation: 18: Part\u00a0I.\u00a0Tutorial",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+      "title": "Training for Power BI | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/",
+      "title": "CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
+      "title": "Introduction to web APIs - Learn web development | MDN",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.iiba.org/business-analysis-resources/",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.istqb.org/",
+      "status": 200,
+      "finalUrl": "https://istqb.org/",
+      "title": "ISTQB\u00ae | Official software testing certifications",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/azure/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/azure/",
+      "title": "Training for Azure | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.netacad.com/",
+      "status": 200,
+      "finalUrl": "https://www.netacad.com/",
+      "title": "Cisco Networking Academy: Learn Cybersecurity, Python & More",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/",
+      "title": "Training - Courses, Learning Paths, Modules | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "status": 200,
+      "finalUrl": "https://developers.google.com/machine-learning/crash-course",
+      "title": "Machine Learning &nbsp;|&nbsp; Google for Developers",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "status": 200,
+      "finalUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "AI Risk Management Framework | NIST",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://docs.github.com/en/actions",
+      "status": 200,
+      "finalUrl": "https://docs.github.com/en/actions",
+      "title": "GitHub Actions documentation - GitHub Docs",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/cv-sections",
+      "status": 200,
+      "finalUrl": "https://nationalcareers.service.gov.uk/careers-advice/cv-sections",
+      "title": "How to write a CV | Get careers information and advice",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+      "title": "How does the Internet work? - Learn web development | MDN",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://linuxjourney.com/",
+      "status": 200,
+      "finalUrl": "https://labex.io/linuxjourney",
+      "title": "Linux Journey Official Site | Learn Linux for Free",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://edu.gcfglobal.org/en/computerbasics/",
+      "status": 200,
+      "finalUrl": "https://www.learnfree.org/select-a-goal",
+      "title": "Select a Goal | LearnFree",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=computers+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=computers+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=networking+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=networking+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=linux+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=linux+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=git+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=git+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=excel+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=excel+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/results?search_query=sql+beginner+tutorial+freecodecamp",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/results?search_query=sql+beginner+tutorial+freecodecamp",
+      "title": "",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.england.nhs.uk/digitaltechnology/",
+      "status": 200,
+      "finalUrl": "https://www.england.nhs.uk/digitaltechnology/",
+      "title": "NHS England &raquo; Digital transformation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.gov.uk/service-manual",
+      "status": 200,
+      "finalUrl": "https://www.gov.uk/service-manual",
+      "title": "Service Manual - GOV.UK",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://digital.nhs.uk/services/clinical-safety",
+      "status": 200,
+      "finalUrl": "https://digital.nhs.uk/services/clinical-safety",
+      "title": "Digital clinical safety - NHS England Digital",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://github.com/skills",
+      "status": 200,
+      "finalUrl": "https://github.com/skills",
+      "title": "GitHub Skills \u00b7 GitHub",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.iiba.org/",
+      "status": 200,
+      "finalUrl": "https://www.iiba.org/",
+      "title": "Business Analysis | The Global Standard | IIBA&#xAE;",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://istqb.org/",
+      "status": 200,
+      "finalUrl": "https://istqb.org/",
+      "title": "ISTQB\u00ae | Official software testing certifications",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/training/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/",
+      "title": "Training - Courses, Learning Paths, Modules | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/",
+      "status": 200,
+      "finalUrl": "https://docs.python.org/3/tutorial/",
+      "title": "The Python Tutorial &#8212; Python 3.15.2 documentation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "status": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "title": "Learn web development | MDN",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/training/paths/get-started-data-engineering/",
+      "title": "Get started with data engineering on Azure - Training | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://airflow.apache.org/docs/",
+      "status": 200,
+      "finalUrl": "https://airflow.apache.org/docs/",
+      "title": "Documentation | Apache Airflow",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://spark.apache.org/docs/latest/",
+      "status": 200,
+      "finalUrl": "https://spark.apache.org/docs/latest/",
+      "title": "Overview - Spark 4.3.0 Documentation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/supervised_learning.html",
+      "status": 200,
+      "finalUrl": "https://scikit-learn.org/stable/supervised_learning.html",
+      "title": "1. Supervised learning &#8212; scikit-learn 1.9.1 documentation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://huggingface.co/learn",
+      "status": 200,
+      "finalUrl": "https://huggingface.co/learn",
+      "title": "Hugging Face - Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.open.edu/openlearn/science-maths-technology/computing-and-ict",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.gnu.org/software/coreutils/manual/html_node/File-permissions.html",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.ncsc.gov.uk/collection/10-steps",
+      "status": 200,
+      "finalUrl": "https://www.ncsc.gov.uk/collection/10-steps",
+      "title": "10 Steps to Cyber Security | National Cyber Security Centre",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility",
+      "title": "Shared responsibility in the cloud - Microsoft Azure | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/tutorial-join.html",
+      "status": 200,
+      "finalUrl": "https://www.postgresql.org/docs/current/tutorial-join.html",
+      "title": "PostgreSQL: Documentation: 18: 2.6.\u00a0Joins Between Tables",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.datadictionary.nhs.uk/",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://docs.python.org/3/library/unittest.html",
+      "status": 200,
+      "finalUrl": "https://docs.python.org/3/library/unittest.html",
+      "title": "unittest \u2014 Unit testing framework &#8212; Python 3.15.2 documentation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://docs.python.org/3/library/csv.html",
+      "status": 200,
+      "finalUrl": "https://docs.python.org/3/library/csv.html",
+      "title": "csv \u2014 CSV file reading and writing &#8212; Python 3.15.2 documentation",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/",
+      "title": "Microsoft Learn: Build with answers in reach",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://training.linuxfoundation.org/",
+      "status": 200,
+      "finalUrl": "https://training.linuxfoundation.org/",
+      "title": "Open Source Training | Linux Foundation Training and Certification",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/learn-hardware-cloud-devops-networking-security-databases-dns-git-and-linux",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/learn-hardware-cloud-devops-networking-security-databases-dns-git-and-linux",
+      "title": "Learn Hardware, Cloud, DevOps, Networking, Security, Databases, DNS, Git, and Linux",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/x/weeks/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/x/weeks/0/",
+      "title": "Week 0 Scratch - CS50x 2026",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://youtu.be/4m9j6hlbf4g",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=4m9j6hlbf4g&feature=youtu.be",
+      "title": "IT Fundamentals Course \u2013 Hardware, Cloud, DevOps, Networking, Security, Databases, DNS, Git, Linux - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://missing.csail.mit.edu/2020/debugging-profiling/",
+      "status": 200,
+      "finalUrl": "https://missing.csail.mit.edu/2020/debugging-profiling/",
+      "title": "Debugging and Profiling &middot; Missing Semester",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/embed/l812pUnKxME",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/embed/l812pUnKxME",
+      "title": "YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/cybersecurity/weeks/2/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/cybersecurity/weeks/2/",
+      "title": "Week 2 Securing Systems - CS50's Introduction to Cybersecurity",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://missing.csail.mit.edu/2020/course-shell/",
+      "status": 200,
+      "finalUrl": "https://missing.csail.mit.edu/2020/course-shell/",
+      "title": "Course Overview + The Shell &middot; Missing Semester",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/embed/Z56Jmr9Z34Q",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/embed/Z56Jmr9Z34Q",
+      "title": "YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://missing.csail.mit.edu/2020/version-control/",
+      "status": 200,
+      "finalUrl": "https://missing.csail.mit.edu/2020/version-control/",
+      "title": "Version Control (Git) &middot; Missing Semester",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/embed/2sjqTHE0zok",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/embed/2sjqTHE0zok",
+      "title": "YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Vl0H-qTclOg",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Vl0H-qTclOg",
+      "title": "Microsoft Excel Tutorial for Beginners - Full Course - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/excel/",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/en-us/excel/",
+      "title": "Excel help &amp; learning | Microsoft Support",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/free-statistics-course",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/free-statistics-course",
+      "title": "Learn College-level Statistics in this free 8-hour course",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+      "title": "Statistics - A Full University Course on Data Science Basics - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/weeks/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/weeks/0/",
+      "title": "Week 0 Querying - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/notes/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/notes/0/",
+      "title": "Lecture 0 - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/vHYeChEf2lA?screen=6UZILCexEZ4",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/vHYeChEf2lA?screen=6UZILCexEZ4",
+      "title": "CS50 SQL - Lecture 0 - Querying",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/weeks/1/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/weeks/1/",
+      "title": "Week 1 Relating - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/notes/1/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/notes/1/",
+      "title": "Lecture 1 - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/_2t18Hy9Z0Y?screen=2OrXwf138gs",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/_2t18Hy9Z0Y?screen=2OrXwf138gs",
+      "title": "CS50 SQL - Lecture 1 - Relating",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/weeks/4/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/weeks/4/",
+      "title": "Week 4 Viewing - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/notes/4/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/notes/4/",
+      "title": "Lecture 4 - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/jZwGVuA8PMI?screen=c5fXV3WTu5Y",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/jZwGVuA8PMI?screen=c5fXV3WTu5Y",
+      "title": "CS50 SQL - Lecture 4 - Viewing",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/weeks/2/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/weeks/2/",
+      "title": "Week 2 Designing - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/sql/notes/2/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/sql/notes/2/",
+      "title": "Lecture 2 - CS50's Introduction to Databases with SQL",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/QzRW6bfv3Fo?screen=YH12F1iGeUM",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/QzRW6bfv3Fo?screen=YH12F1iGeUM",
+      "title": "CS50 SQL - Lecture 2 - Designing",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/weeks/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/weeks/0/",
+      "title": "Week 0 Functions - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/notes/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/notes/0/",
+      "title": "Lecture 0 - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/JP7ITIXGpHk",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/JP7ITIXGpHk",
+      "title": "CS50P - Lecture 0 - Functions, Variables",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/weeks/3/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/weeks/3/",
+      "title": "Week 3 Exceptions - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/notes/3/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/notes/3/",
+      "title": "Lecture 3 - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/LW7g1169v7w",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/LW7g1169v7w",
+      "title": "CS50P - Lecture 3 - Exceptions",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/weeks/6/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/weeks/6/",
+      "title": "Week 6 File I/O - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/notes/6/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/notes/6/",
+      "title": "Lecture 6 - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/KD-Yoel6EVQ",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/KD-Yoel6EVQ",
+      "title": "CS50P - Lecture 6 - File I/O",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/apis-for-beginners",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/apis-for-beginners",
+      "title": "APIs for Beginners Tutorial",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "title": "APIs for Beginners - How to use an API (Full Course / Tutorial) - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/weeks/5/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/weeks/5/",
+      "title": "Week 5 Unit Tests - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/python/notes/5/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/python/notes/5/",
+      "title": "Lecture 5 - CS50's Introduction to Programming with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/tIrcxwLqzjQ",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/tIrcxwLqzjQ",
+      "title": "CS50P - Lecture 5 - Unit Tests",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/software-testing-with-playwright",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/software-testing-with-playwright",
+      "title": "Software Testing with Playwright",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/web/notes/7/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/web/notes/7/",
+      "title": "Lecture 7 - CS50's Web Programming with Python and JavaScript",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://youtu.be/jydYq7oAtD8",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=jydYq7oAtD8&feature=youtu.be",
+      "title": "Software Testing Course \u2013 Playwright, E2E, and AI Agents - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/web/weeks/7/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/web/weeks/7/",
+      "title": "Week 7 Testing, CI/CD - CS50's Web Programming with Python and JavaScript",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/WbRDkJ4lPdY?screen=NajlH6g6pW8",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/WbRDkJ4lPdY?screen=NajlH6g6pW8",
+      "title": "CS50W - Lecture 7 - Testing and CI/CD",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YpNWSeoxZEs",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=YpNWSeoxZEs",
+      "title": "Discover the Foundation for Effective Business Analysis - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.atlassian.com/agile/project-management/user-stories",
+      "status": 200,
+      "finalUrl": "https://www.atlassian.com/agile/project-management/user-stories",
+      "title": "User Stories With Examples and a Template | Atlassian",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.nwepr.co.uk/2026/10/06/our-electronic-patient-record-a-programme-update/",
+      "status": 200,
+      "finalUrl": "https://www.nwepr.co.uk/2026/10/06/our-electronic-patient-record-a-programme-update/",
+      "title": "Our electronic patient record &#8211; a programme update &#8211; Better Joined-Up Care",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube-nocookie.com/embed/kpYxG1nsBrY?rel=0&controls=0&showinfo=0",
+      "status": 200,
+      "finalUrl": "https://www.youtube-nocookie.com/embed/kpYxG1nsBrY?rel=0&controls=0&showinfo=0",
+      "title": "YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://derbyshiregppb.org.uk/digital-transformation/",
+      "status": 200,
+      "finalUrl": "https://derbyshiregppb.org.uk/digital-transformation/",
+      "title": "Digital Transformation",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/watch?feature=youtu.be&v=zvrclh6WWYg",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?feature=youtu.be&v=zvrclh6WWYg",
+      "title": "Derby and Derbyshire Clinical Safety Officer (CSO) webinar - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://info.hl7.org/virtual-student-academy",
+      "status": 200,
+      "finalUrl": "https://info.hl7.org/virtual-student-academy",
+      "title": "Virtual Student Academy",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://hl7.org/fhir/overview.html",
+      "status": 200,
+      "finalUrl": "https://hl7.org/fhir/overview.html",
+      "title": "Overview - FHIR v5.0.0",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/data-protection-principles-training-videos/",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/",
+      "result": "CHECK_BLOCKED_OR_FAILED",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KaCyfQ7luVY",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=KaCyfQ7luVY",
+      "title": "Public Cloud Explained - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility/",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility",
+      "title": "Shared responsibility in the cloud - Microsoft Azure | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/shows/the-open-source-show/instrumenting-observability-getting-started-and-pro-tips",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/shows/the-open-source-show/instrumenting-observability-getting-started-and-pro-tips",
+      "title": "Instrumenting Observability: Getting Started and Pro Tips | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/overview",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/azure/azure-monitor/fundamentals/overview",
+      "title": "Azure Monitor overview - Azure Monitor | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/learn-the-essentials-of-data-engineering/",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/learn-the-essentials-of-data-engineering/",
+      "title": "Learn the Essentials of Data Engineering",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://youtu.be/PHsC_t0j1dU",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=PHsC_t0j1dU&feature=youtu.be",
+      "title": "Data Engineering Course for Beginners - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/learn-data-analysis-with-comprehensive-19-hour-bootcamp",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/learn-data-analysis-with-comprehensive-19-hour-bootcamp",
+      "title": "Learn Data Analysis with Python in this Comprehensive 19-Hour Bootcamp",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-getting-started",
+      "title": "Get started with Power BI Desktop - Power BI | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://youtu.be/PSNXoAs2FtQ",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=PSNXoAs2FtQ&feature=youtu.be",
+      "title": "Data Analyst Bootcamp for Beginners (SQL, Tableau, Power BI, Python, Excel, Pandas, Projects, more) - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/ai/weeks/4/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/ai/weeks/4/",
+      "title": "Week 4 Learning - CS50's Introduction to Artificial Intelligence with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/ai/notes/4/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/ai/notes/4/",
+      "title": "Lecture 4 - CS50's Introduction to Artificial Intelligence with Python",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/-g0iJjnO2_w?screen=xpyjJYdb5yg",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/-g0iJjnO2_w?screen=xpyjJYdb5yg",
+      "title": "Learning - Lecture 4 - CS50&#39;s Introduction to Artificial Intelligence with Python 2020",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/learn-rag-and-mcp-fundamentals",
+      "status": 200,
+      "finalUrl": "https://www.freecodecamp.org/news/learn-rag-and-mcp-fundamentals",
+      "title": "Learn RAG &amp; MCP Fundamentals",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://youtu.be/I7_WXKhyGms",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=I7_WXKhyGms&feature=youtu.be",
+      "title": "RAG &amp; MCP Fundamentals \u2013 A Hands-On Crash Course - YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/shows/ai-show/responsible-ai-announcements",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/shows/ai-show/responsible-ai-announcements",
+      "title": "Responsible AI Announcements | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-use-of-ai-overview",
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/azure/foundry/responsible-use-of-ai-overview",
+      "title": "Responsible AI for Microsoft Foundry - Microsoft Foundry | Microsoft Learn",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.w3.org/WAI/videos/standards-and-benefits/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/videos/standards-and-benefits/",
+      "title": "Video Introduction to Web Accessibility and W3C Standards | Web Accessibility Initiative (WAI) | W3C",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "status": 200,
+      "finalUrl": "https://www.w3.org/WAI/tutorials/forms/",
+      "title": "Forms Tutorial | Web Accessibility Initiative (WAI) | W3C",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired/episode-05",
+      "status": 200,
+      "finalUrl": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired/episode-05",
+      "title": "Episode 05 | LearnEnglish",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired",
+      "status": 200,
+      "finalUrl": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired",
+      "title": "You&#039;re Hired | LearnEnglish",
+      "videoEvidence": false,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/professional-development-pathways/pathways-planning-lessons-and",
+      "status": 200,
+      "finalUrl": "https://www.teachingenglish.org.uk/professional-development/teachers/professional-development-pathways/pathways-planning-lessons-and",
+      "title": "Planning lessons and courses - Teacher resources",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://www.youtube.com/embed/_pq-7Lg4Bnk?si=1491uA2QBOjUWWbU",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/embed/_pq-7Lg4Bnk?si=1491uA2QBOjUWWbU",
+      "title": "YouTube",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/cybersecurity/weeks/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/cybersecurity/weeks/0/",
+      "title": "Week 0 Securing Accounts - CS50's Introduction to Cybersecurity",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/cybersecurity/notes/0/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/cybersecurity/notes/0/",
+      "title": "Lecture 0 - CS50's Introduction to Cybersecurity",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/fJYdAN4Vh5c?screen=McCLi_ltC2o",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/fJYdAN4Vh5c?screen=McCLi_ltC2o",
+      "title": "CS50 Cybersecurity - Lecture 0 - Securing Accounts",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://cs50.harvard.edu/cybersecurity/notes/2/",
+      "status": 200,
+      "finalUrl": "https://cs50.harvard.edu/cybersecurity/notes/2/",
+      "title": "Lecture 2 - CS50's Introduction to Cybersecurity",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    },
+    {
+      "url": "https://video.cs50.io/9phdZjF8qOk?screen=fJ9GD9jOhdQ",
+      "status": 200,
+      "finalUrl": "https://video.cs50.io/9phdZjF8qOk?screen=fJ9GD9jOhdQ",
+      "title": "CS50 Cybersecurity - Lecture 2 - Securing Systems",
+      "videoEvidence": true,
+      "result": "REACHABLE"
+    }
+  ],
+  "repairs": {
+    "https://www.iiba.org/business-analysis-resources/": "https://www.iiba.org/career-resources/business-analysis-resources/",
+    "https://www.open.edu/openlearn/science-maths-technology/computing-and-ict": "https://cs50.harvard.edu/x/weeks/0/",
+    "https://edu.gcfglobal.org/en/computerbasics/": "https://www.freecodecamp.org/news/learn-hardware-cloud-devops-networking-security-databases-dns-git-and-linux"
+  },
+  "notes": [
+    "403 means automated retrieval was blocked; it does not prove the resource is broken.",
+    "HTTP reachability does not certify playback, learning quality, licensing or topic coverage.",
+    "This checks 138 distinct URLs embedded in the current authored course data and curated resource registry."
+  ]
+}

@@ -22,7 +22,7 @@ window.CLOS.masteryV11=[
     },
     "resource": {
       "label": "Free learning reference",
-      "url": "https://www.open.edu/openlearn/science-maths-technology/computing-and-ict"
+      "url": "https://cs50.harvard.edu/x/weeks/0/"
     },
     "video": {
       "status": "UNVERIFIED",
