@@ -1,0 +1,39 @@
+{
+  "version": "5.3.0",
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "name": "each resource group and all 223 authored titles have a short learning option",
+      "status": "PASS"
+    },
+    {
+      "name": "video identifiers and clip endpoints are bounded, with honest match descriptions",
+      "status": "PASS"
+    },
+    {
+      "name": "existing long video and written links are retained for every resource set",
+      "status": "PASS"
+    },
+    {
+      "name": "all 15 career routes have valid ordered course modules and three role-specific model questions",
+      "status": "PASS"
+    },
+    {
+      "name": "eight practical AI modules include task, evidence rubric, model reasoning and valid resource",
+      "status": "PASS"
+    },
+    {
+      "name": "current AI certificate uses AI-901, with prerequisites and no retired-exam recommendation",
+      "status": "PASS"
+    },
+    {
+      "name": "full backup preserves career, AI, CV and application state alongside legacy progress",
+      "status": "PASS"
+    },
+    {
+      "name": "all new runtime files are loaded and precached and exist",
+      "status": "PASS"
+    }
+  ]
+}

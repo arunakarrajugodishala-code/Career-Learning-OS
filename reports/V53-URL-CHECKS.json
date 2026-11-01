@@ -1,0 +1,278 @@
+{
+  "checkedAt": "2026-11-01",
+  "total": 45,
+  "reachable": 43,
+  "checks": [
+    {
+      "url": "https://cloud.google.com/learn/certificates",
+      "status": 200,
+      "final": "https://cloud.google.com/learn/certificates",
+      "result": "reachable"
+    },
+    {
+      "url": "https://grow.google/certificates/",
+      "status": 200,
+      "final": "https://grow.google/certificates/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://grow.google/certificates/data-analytics/",
+      "status": 200,
+      "final": "https://grow.google/certificates/data-analytics/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://istqb.org/",
+      "status": 200,
+      "final": "https://istqb.org/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-gb/credentials/certifications/data-analyst-associate/",
+      "status": 200,
+      "final": "https://learn.microsoft.com/en-gb/credentials/certifications/data-analyst-associate/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-gb/credentials/certifications/exams/ai-901/",
+      "status": 200,
+      "final": "https://learn.microsoft.com/en-gb/credentials/certifications/exams/ai-901/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired/episode-05",
+      "status": 200,
+      "final": "https://learnenglish.britishcouncil.org/free-resources/business/youre-hired/episode-05",
+      "result": "reachable"
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+      "status": 200,
+      "final": "https://nationalcareers.service.gov.uk/careers-advice/application-forms",
+      "result": "reachable"
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/cv-sections",
+      "status": 200,
+      "final": "https://nationalcareers.service.gov.uk/careers-advice/cv-sections",
+      "result": "reachable"
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/interview-advice/the-star-method",
+      "status": 200,
+      "final": "https://nationalcareers.service.gov.uk/careers-advice/interview-advice/the-star-method",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.iiba.org/ecba",
+      "status": 403,
+      "final": "https://www.iiba.org/ecba",
+      "result": "unresolved"
+    },
+    {
+      "url": "https://www.jobs.nhs.uk/candidate/search",
+      "status": 403,
+      "final": "https://www.jobs.nhs.uk/candidate/search",
+      "result": "unresolved"
+    },
+    {
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+      "status": 200,
+      "final": "https://www.weforum.org/publications/the-future-of-jobs-report-2025",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=20SHvU2PKsM",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=20SHvU2PKsM",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4m9j6hlbf4g",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=4m9j6hlbf4g",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9phdZjF8qOk",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=9phdZjF8qOk",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=I7_WXKhyGms",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=I7_WXKhyGms",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KaCyfQ7luVY",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=KaCyfQ7luVY",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NOojX8LvleM",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=NOojX8LvleM",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=PSNXoAs2FtQ",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V5Jcl2nkWys",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=V5Jcl2nkWys",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Vl0H-qTclOg",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=Vl0H-qTclOg",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WbRDkJ4lPdY",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=WbRDkJ4lPdY",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YJInlE99vSs",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=YJInlE99vSs",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YpNWSeoxZEs",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=YpNWSeoxZEs",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z56Jmr9Z34Q",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=Z56Jmr9Z34Q",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_pq-7Lg4Bnk",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=_pq-7Lg4Bnk",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fJYdAN4Vh5c",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=fJYdAN4Vh5c",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hLvwoow3XTk",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=hLvwoow3XTk",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hwP7WQkmECE",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=hwP7WQkmECE",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jydYq7oAtD8",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=jydYq7oAtD8",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kpYxG1nsBrY",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=kpYxG1nsBrY",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=l812pUnKxME",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=l812pUnKxME",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tIrcxwLqzjQ",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=tIrcxwLqzjQ",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=x7X9w_GIm1s",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=x7X9w_GIm1s",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=zsjvFFKOm3c",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zvrclh6WWYg",
+      "status": 200,
+      "final": "https://www.youtube.com/watch?v=zvrclh6WWYg",
+      "result": "reachable"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-gb/credentials/certifications/azure-fundamentals/",
+      "status": 200,
+      "final": "https://learn.microsoft.com/en-gb/credentials/certifications/azure-fundamentals/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "status": 200,
+      "final": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://grow.google/certificates/cybersecurity/",
+      "status": 200,
+      "final": "https://grow.google/certificates/cybersecurity/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://grow.google/certificates/it-support/",
+      "status": 200,
+      "final": "https://grow.google/certificates/it-support/",
+      "result": "reachable"
+    }
+  ],
+  "limits": "Reachability is not full playback, caption or syllabus verification. YouTube may require sign-in or block embeddings."
+}

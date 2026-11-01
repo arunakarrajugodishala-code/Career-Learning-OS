@@ -1,3 +1,14 @@
+# v5.3.0 · Short learning and career launchpad
+
+Open **Career launchpad**, **AI learning & careers**, or **Videos & sources**. Existing progress is preserved; new career, AI, interview, CV and application records are included in full backups.
+
+- Added short video options across all 36 resource groups / 223 mapped titles. Full videos retained. Some are shared supporting overviews or labelled five-minute excerpts, not unique exact-subtopic films.
+- Added 15 role plans, project evidence, 75 interview prompts/model structures, criterion-to-evidence CV drafting, related job searches and a local application tracker.
+- Added eight practical AI learning steps and current role-matched optional certificate study links, including AI-901 replacing AI-900.
+- Automated checks and browser workflows are recorded in reports/V53-*. Full independent acceptance and curriculum completeness remain pending. No employment, shortlist or certificate-pass guarantee.
+
+Earlier release history follows.
+
 # Career Learning OS v5.2.0
 
 A free self-study app for GitHub Pages. This is a working learning workspace, not a fully reviewed beginner-to-advanced academy or accredited qualification. Full acceptance remains pending.

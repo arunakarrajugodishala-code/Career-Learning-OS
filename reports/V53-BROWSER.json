@@ -1,0 +1,20 @@
+{
+  "version": "5.3.0",
+  "environment": "Desktop Chrome managed preview",
+  "results": {
+    "all15CareerRoutes": "PASS: ordered course modules, five interview prompts and three role-filtered search links per route",
+    "cvDraft": "PASS: two evidence lines retained, third criterion flagged GAP; saved draft survives reload",
+    "aiPractice": "PASS: eight steps; empty evidence completion blocked; saved note and completion survive reload",
+    "shortVideo": "PASS: bounded privacy-enhanced player URL; SQL search has 18 panels, 18 short options and 18 full-video links",
+    "applicationTracker": "PASS: javascript URL rejected; HTTPS synthetic record saved and status changed to Interview; survives reload",
+    "courseLink": "PASS: Python link opens and focuses the correct original lesson",
+    "desktopOverflow": "PASS: no horizontal overflow in tested video view"
+  },
+  "limits": [
+    "No full playback or captions verified for every video",
+    "Embedding and region restrictions can vary",
+    "Physical mobile, assistive technology and full curriculum review pending",
+    "No live vacancies individually verified or applications submitted",
+    "A transient browser locator timeout after smooth-scrolling a course resolved by returning Home; no app console exception observed"
+  ]
+}
