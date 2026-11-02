@@ -1,0 +1,27 @@
+{
+  "version": "5.4.0",
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "name": "15 unique sequenced lessons contain explanations, tasks, official sources and valid answer keys",
+      "status": "PASS"
+    },
+    {
+      "name": "all four current CLF-C02 domains are represented with official weights",
+      "status": "PASS"
+    },
+    {
+      "name": "knowledge review prevents partial grading and correctly scores original questions",
+      "status": "PASS"
+    },
+    {
+      "name": "AWS evidence, quiz attempts and study plan survive full backup and restore",
+      "status": "PASS"
+    },
+    {
+      "name": "new course assets are loaded and precached and all precache files exist",
+      "status": "PASS"
+    }
+  ]
+}

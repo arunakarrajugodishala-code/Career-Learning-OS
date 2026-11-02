@@ -1,0 +1,18 @@
+{
+  "version": "5.4.0",
+  "environment": "Desktop Chrome preview",
+  "lessonRoutes": 15,
+  "allLessonsHaveEvidenceShortOptionOfficialSource": true,
+  "evidenceMinimumEnforced": true,
+  "singleQuestionCorrectSaved": true,
+  "partialQuizBlocked": true,
+  "mixedQuestionFieldsets": 15,
+  "planProjectLessonPersistAfterReload": true,
+  "ec2Player": "https://www.youtube-nocookie.com/embed/t48aVpw6kkI?start=0&end=300&rel=0",
+  "limitations": [
+    "Full video playback and captions not certified",
+    "No physical iPhone or screen-reader verification",
+    "No exam or job-readiness prediction",
+    "Browser loop timeout recovered by splitting verification into two batches"
+  ]
+}

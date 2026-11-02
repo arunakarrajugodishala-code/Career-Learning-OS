@@ -1,3 +1,11 @@
+# v5.4.0 · AWS Cloud learning course
+
+Open **AWS Cloud course** from the sidebar or Home. Includes 15 beginner lessons, short supporting videos, official AWS references, no-account tasks, saved evidence, study planning, a 15-question original review, portfolio notes and Cloud Engineer career links. New AWS records are included in full backups.
+
+The sequence introduces all four current CLF-C02 domains and links the official Essentials course and exam guide. It is supplementary foundation preparation, not a complete official syllabus, certification or engineering qualification. Solutions Architect Associate is linked as an optional onward path. Existing videos and progress are retained. External videos and provider courses need internet. No AWS infrastructure is provisioned by this app.
+
+Earlier release history follows.
+
 # v5.3.0 · Short learning and career launchpad
 
 Open **Career launchpad**, **AI learning & careers**, or **Videos & sources**. Existing progress is preserved; new career, AI, interview, CV and application records are included in full backups.
