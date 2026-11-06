@@ -1,3 +1,7 @@
+# v5.5.2 · GitHub resource library
+
+Open **Guided career dashboard → GitHub resource library** for 41 curated learning resources, portfolio tools, automation projects and everyday apps. Each link includes a concrete way to use it. The catalogue is part of the offline app shell and external repository links need internet access.
+
 # v5.5.1 · Vacancy-to-skills comparison
 
 In **Guided career dashboard → Find vacancies and apply**, save up to three distinct adverts per route. Enter essential skill labels one per line. Use consistent names for equivalent requirements. The dashboard ranks skills by how many adverts mention them and flags missing or brief evidence. These are your own records and remain part of the full backup.
