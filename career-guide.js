@@ -53,12 +53,67 @@
     };
   }
 
+  function comparison(entry, route) {
+    const adverts = entry.adverts || [];
+    const rows = new Map();
+    for (const advert of adverts.filter(Boolean)) {
+      for (const skill of new Set(advert.skills.split('\n').map(s => s.trim().replace(/\s+/g, ' ').toLowerCase()).filter(Boolean))) {
+        rows.set(skill, (rows.get(skill) || 0) + 1);
+      }
+    }
+    const skills = [...rows].sort(([a, n], [b, m]) => m - n || a.localeCompare(b));
+    const evidence = new Map(entry.skillEvidence || []);
+    const nextGap = skills.find(([skill]) => !meaningful(evidence.get(skill), 20))?.[0];
+    return { skills, evidence, nextGap, html: `
+      <h4>Compare vacancy skills</h4>
+      <p>Save any route edits before switching routes. Use up to three different employer adverts for ${esc(route.title)}. Copy up to 25 essential skills per advert, one per line. Use the same wording for equivalent requirements (for example, “user acceptance testing” for UAT). The counts use your labels.</p>
+      ${Array.from({ length: 3 }, (_, i) => `
+        <details ${i === 0 ? 'open' : ''}><summary>Advert ${i + 1}${adverts[i]?.title ? ' · ' + esc(adverts[i].title) : ''}</summary>
+        <p><label for="guide-ad-title-${i}">Job title and employer</label>
+        <input id="guide-ad-title-${i}" maxlength="150" value="${esc(adverts[i]?.title)}"></p>
+        <p><label for="guide-ad-url-${i}">Employer advert link</label>
+        <input id="guide-ad-url-${i}" type="text" inputmode="url" maxlength="1000" value="${esc(adverts[i]?.url)}"></p>
+        ${adverts[i]?.url ? '<p>' + out(adverts[i].url, 'Open saved advert') + '</p>' : ''}
+        <p><label for="guide-ad-skills-${i}">Essential skills, one per line</label>
+        <textarea id="guide-ad-skills-${i}" rows="4" maxlength="2000">${esc(adverts[i]?.skills)}</textarea></p></details>`).join('')}
+      <button type="submit">Save and compare adverts</button>
+      <p>${adverts.filter(Boolean).length} / 3 adverts saved. Check closing dates in the original listings.</p>
+      ${skills.length ? `<h5>Skills ranked by frequency</h5>
+        <p>${nextGap ? 'Start with ' + esc(nextGap) + '. ' : ''}Add a specific example with your action and result or leave the field blank for skills you need to practise.</p>
+        ${skills.map(([skill, count], i) => `<p><label for="guide-ad-evidence-${i}">${esc(skill)} · ${count} advert${count === 1 ? '' : 's'} · ${meaningful(evidence.get(skill), 20) ? 'Evidence recorded' : 'Gap or weak evidence'}</label>
+        <textarea id="guide-ad-evidence-${i}" rows="2" maxlength="1000">${esc(evidence.get(skill))}</textarea></p>`).join('')}
+        <button type="submit">Save skills evidence</button>` : ''}
+      ` };
+  }
+
+  function readAdverts() {
+    const seen = new Set();
+    return Array.from({ length: 3 }, (_, i) => {
+      const title = byId('guide-ad-title-' + i).value.trim();
+      const url = byId('guide-ad-url-' + i).value.trim();
+      const skills = byId('guide-ad-skills-' + i).value.trim();
+      if (!title && !url && !skills) return null;
+      if (!title || !skills || !/^https:\/\//i.test(url)) {
+        throw Error('Advert ' + (i + 1) + ' needs a title, an HTTPS link and at least one skill.');
+      }
+      if (skills.split('\n').filter(line => line.trim()).length > 25) {
+        throw Error('Use up to 25 skill lines for advert ' + (i + 1) + '.');
+      }
+      const address = new URL(url);
+      address.hash = '';
+      if (seen.has(address.href)) throw Error('Use a different listing for each advert.');
+      seen.add(address.href);
+      return { title, url, skills };
+    });
+  }
+
   function draw() {
     const current = model();
     const route = routes.find(r => r.role === current.role) || routes[0];
     const entry = current.records?.[route.role] || {};
     const existing = D.careerLaunchV53.roles.find(r => r.slug === route.role);
     const launch = launchEvidence(route.role);
+    const compared = comparison(entry, route);
     const assessed = route.skills.filter((_, i) => Number(entry.ratings?.[i]) > 0).length;
     const stages = route.stages.map((_, i) => {
       const record = entry.stages?.[i] || {};
@@ -75,6 +130,7 @@
     const next = assessed < route.skills.length ? 'Rate your three skill areas below.' :
       firstOpen >= 0 ? 'Build the ' + levels[firstOpen].toLowerCase() + ' project evidence.' :
       launch.gaps.length || launch.answers < 3 ? 'Open the launchpad to cover vacancy criteria and save three practice answers.' :
+      compared.nextGap ? 'Build evidence for the most frequent gap in your saved adverts: ' + compared.nextGap + '.' :
       !entry.vacancyChecked ? 'Check the actual vacancy and save your review.' : 'Use your tailored evidence to prepare an application.';
     document.querySelectorAll('nav button[data-view]').forEach(b => {
       b.classList.toggle('academy-current', b.dataset.view === page);
@@ -133,6 +189,7 @@
       ${out('https://www.uhd.nhs.uk/careers/vacancies', 'University Hospitals Dorset')} ·
       ${out('https://findajob.dwp.gov.uk/search?q=' + encodeURIComponent(route.search), 'Find a job · UK')}</p>
       <p>Search results change. Open the employer advert to check the deadline, location, essential criteria and any sponsorship details.</p>
+      ${compared.html}
       <label class="choice"><input type="checkbox" id="guide-vacancy" ${entry.vacancyChecked ? 'checked' : ''}> I checked the vacancy criteria, application instructions and eligibility.</label>
       <button type="submit">Save application review</button></section></form>
       <p id="guide-status" role="status"></p>
@@ -161,7 +218,15 @@
     byId('guide-record').onsubmit = event => {
       event.preventDefault();
       act(() => {
+        const adverts = readAdverts();
+        for (const [i, [skill]] of compared.skills.entries()) {
+          const value = byId('guide-ad-evidence-' + i).value.trim();
+          if (value) compared.evidence.set(skill, value);
+          else compared.evidence.delete(skill);
+        }
         const record = {
+          adverts,
+          skillEvidence: [...compared.evidence],
           ratings: route.skills.map((_, i) => Number(byId('guide-rating-' + i).value)),
           stages: stages.map((_, i) => ({
             ...Object.fromEntries(projectFields.map(([field]) => [field, byId(`guide-${i}-${field}`).value.trim()])),

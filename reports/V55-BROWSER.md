@@ -14,12 +14,16 @@
 
 The historical v2.8 localhost navigation failure is separate. This release used the managed Sites preview URL.
 
-## Before merging to GitHub Pages
+## v5.5.1 follow-up
+
+Desktop Chrome passed a three-advert comparison with fictional records. Repeated skill labels counted once per advert, evidence persisted after reload, and route records stayed separate. Existing regression and service-worker simulation checks also passed.
+
+## Physical device checks
 
 1. Export a full app backup. Use a test profile and fictional evidence for restore checks.
 2. Open the preview on a physical iPhone in Safari. Check the menu, all five routes, narrow layout, evidence form and persistence after reloading.
 3. Test backup export and restore through the UI and the installed app update from v5.4 to v5.5. Confirm the existing records and the new route records survive. Check offline reopening after installation. External videos and sources require internet.
-4. Record these results before merging. Individual video playback, caption coverage and hiring outcomes were outside this browser check.
+4. Record the physical device results. Individual video playback, caption coverage and hiring outcomes were outside this browser check.
 
 ## Source notes
 
