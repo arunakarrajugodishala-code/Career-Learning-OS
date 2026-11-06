@@ -144,6 +144,60 @@
       <p><strong>Next for ${esc(route.title)}:</strong> ${esc(next)}</p>
       ${routeButton('career-launch-v53', 'Open CV & interview workshop')}
       ${routeButton('applications-v53', 'Open application tracker')}</div></div>
+      <details class="card" id="github-resources">
+  <summary><strong>GitHub resource library · 41 curated projects</strong></summary>
+  <p>Choose a resource by task. Start with draw.io for Healthcare Technology or Business Analysis, Public APIs for Data Engineering, Awesome Selfhosted for Cloud or DevOps, and Ollama for an AI Governance evaluation.</p>
+  <p>Links open the upstream projects. Downloads, model execution and hosted workflows run separately. Use fictional or public data for portfolio examples.</p>
+  <section><h3>Career learning and interviews</h3><ul>
+    <li><a href="https://github.com/nilbuild/developer-roadmap" target="_blank" rel="noopener noreferrer">Developer Roadmap</a> · Compare Data Engineering and DevOps skill maps with your route assessment.</li>
+    <li><a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">freeCodeCamp</a> · Practise Python and relational databases with guided exercises.</li>
+    <li><a href="https://github.com/donnemartin/system-design-primer" target="_blank" rel="noopener noreferrer">System Design Primer</a> · Sketch a system and explain how it handles failures in an interview.</li>
+    <li><a href="https://github.com/jwasham/coding-interview-university" target="_blank" rel="noopener noreferrer">Coding Interview University</a> · Review data structures for software engineering interviews.</li>
+    <li><a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener noreferrer">Free Programming Books</a> · Find reference material on Python, SQL and cloud foundations.</li>
+    <li><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener noreferrer">Build Your Own X</a> · Build a small database or web server to understand its internals.</li>
+    <li><a href="https://github.com/practical-tutorials/project-based-learning" target="_blank" rel="noopener noreferrer">Project Based Learning</a> · Choose a tutorial, then adapt it into a portfolio project you can explain.</li>
+    <li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener noreferrer">OSSU Computer Science</a> · Fill a specific gap with a university-level course.</li>
+    <li><a href="https://github.com/TheAlgorithms/Python" target="_blank" rel="noopener noreferrer">The Algorithms: Python</a> · Read and test implementations when practising algorithms.</li>
+    <li><a href="https://github.com/yangshun/tech-interview-handbook" target="_blank" rel="noopener noreferrer">Tech Interview Handbook</a> · Plan coding practice and rehearse interview answers.</li>
+  </ul></section>
+  <section><h3>Portfolio projects and website development</h3><ul>
+    <li><a href="https://github.com/jgraph/drawio" target="_blank" rel="noopener noreferrer">draw.io</a> · Map a fictional care handover, including escalation and acceptance criteria.</li>
+    <li><a href="https://github.com/excalidraw/excalidraw" target="_blank" rel="noopener noreferrer">Excalidraw</a> · Sketch a care workflow or interview architecture diagram quickly.</li>
+    <li><a href="https://github.com/penpot/penpot" target="_blank" rel="noopener noreferrer">Penpot</a> · Prototype an accessible EPR screen or dashboard for phone and laptop.</li>
+    <li><a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer">Public APIs</a> · Build an ingestion pipeline using a public dataset. Check access terms and quotas.</li>
+    <li><a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener noreferrer">Awesome Python</a> · Compare libraries for data processing, testing and web development.</li>
+    <li><a href="https://github.com/microsoft/vscode" target="_blank" rel="noopener noreferrer">VS Code</a> · Edit and debug portfolio code and preview your Markdown documentation.</li>
+    <li><a href="https://github.com/github/gitignore" target="_blank" rel="noopener noreferrer">Git ignore templates</a> · Start a .gitignore for Python or Node and review excluded files before committing.</li>
+    <li><a href="https://github.com/facebook/react" target="_blank" rel="noopener noreferrer">React</a> · Build a small reusable dashboard in a separate practice project.</li>
+    <li><a href="https://github.com/tabler/tabler-icons" target="_blank" rel="noopener noreferrer">Tabler Icons</a> · Use consistent SVG icons in dashboard prototypes.</li>
+    <li><a href="https://github.com/processing/p5.js" target="_blank" rel="noopener noreferrer">p5.js</a> · Make a browser-based interactive lesson or data visualisation.</li>
+  </ul></section>
+  <section><h3>Cloud, automation and AI governance</h3><ul>
+    <li><a href="https://github.com/torvalds/linux" target="_blank" rel="noopener noreferrer">Linux</a> · Use the kernel source as a reference as you progress from Linux basics to systems work.</li>
+    <li><a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank" rel="noopener noreferrer">Awesome Selfhosted</a> · Find a small application to deploy and document as a cloud lab.</li>
+    <li><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener noreferrer">Awesome</a> · Discover specialist tools and guides by topic.</li>
+    <li><a href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener noreferrer">n8n</a> · Build a test workflow that reads a public feed and logs results. Run it on a separate host.</li>
+    <li><a href="https://github.com/ollama/ollama" target="_blank" rel="noopener noreferrer">Ollama</a> · Run a local model and document where its answers fail. Model size depends on hardware.</li>
+    <li><a href="https://github.com/huggingface/diffusers" target="_blank" rel="noopener noreferrer">Diffusers</a> · Use Python to test image generation and record model settings and output limitations.</li>
+    <li><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer">Superpowers</a> · Review reusable planning and testing workflows for compatible coding assistants.</li>
+    <li><a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener noreferrer">OpenCode</a> · Try an AI coding assistant on a sample repository and review its changes before committing.</li>
+  </ul></section>
+  <section><h3>Everyday tools and video creation</h3><ul>
+    <li><a href="https://github.com/localsend/localsend" target="_blank" rel="noopener noreferrer">LocalSend</a> · Move screenshots and videos between iPhone and laptop on the same network.</li>
+    <li><a href="https://github.com/laurent22/joplin" target="_blank" rel="noopener noreferrer">Joplin</a> · Organise study notes, application drafts and interview examples.</li>
+    <li><a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">PowerToys</a> · Batch-rename evidence files and organise windows on a Windows laptop.</li>
+    <li><a href="https://github.com/LibreOffice/core" target="_blank" rel="noopener noreferrer">LibreOffice</a> · Draft a CV or keep a portfolio spreadsheet on your laptop.</li>
+    <li><a href="https://github.com/videolan/vlc" target="_blank" rel="noopener noreferrer">VLC</a> · Play downloaded course videos and review your recordings.</li>
+    <li><a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank" rel="noopener noreferrer">Stirling PDF</a> · Merge or reorder portfolio PDFs. Use a local instance for sensitive files.</li>
+    <li><a href="https://github.com/obsproject/obs-studio" target="_blank" rel="noopener noreferrer">OBS Studio</a> · Record a walkthrough of a portfolio project with narration.</li>
+    <li><a href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener noreferrer">HandBrake</a> · Compress a screen recording before sharing it.</li>
+    <li><a href="https://github.com/GNOME/gimp" target="_blank" rel="noopener noreferrer">GIMP</a> · Make a reusable thumbnail or clean up portfolio screenshots.</li>
+    <li><a href="https://github.com/KDE/krita" target="_blank" rel="noopener noreferrer">Krita</a> · Draw original icons, illustrations and storyboard frames.</li>
+    <li><a href="https://github.com/KDE/kdenlive" target="_blank" rel="noopener noreferrer">Kdenlive</a> · Combine screen recordings, narration and captions into a video.</li>
+    <li><a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener noreferrer">ComfyUI</a> · Generate reusable thumbnail backgrounds on a separate machine or service. Check model terms before publishing.</li>
+    <li><a href="https://github.com/ManimCommunity/manim" target="_blank" rel="noopener noreferrer">Manim</a> · Animate a data pipeline or maths concept with Python.</li>
+  </ul></section>
+</details>
       <section class="card"><h3>Ranked route comparison</h3>
       <p>Planning scores out of 100. Each factor is rated 1–5 for transfer from care (45%), computing background (30%) and how directly you can build entry-level evidence (25%). This ranking is a personal fit estimate. Search local adverts to judge demand.</p>
       <ol>${[...routes].sort((a, b) => score(b) - score(a)).map(r => `<li>
