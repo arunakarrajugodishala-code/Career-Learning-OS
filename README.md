@@ -1,3 +1,17 @@
+# v5.5.1 · Vacancy-to-skills comparison
+
+In **Guided career dashboard → Find vacancies and apply**, save up to three distinct adverts per route. Enter essential skill labels one per line. Use consistent names for equivalent requirements. The dashboard ranks skills by how many adverts mention them and flags missing or brief evidence. These are your own records and remain part of the full backup.
+
+On iPhone, open the live GitHub Pages site in Safari. Choose **Share → Add to Home Screen → Open as Web App → Add**.
+
+# v5.5.0 · Guided career dashboard
+
+Open **Guided career dashboard** from Home or the menu. Compare five ranked routes, rate three skills per route, and follow the beginner, intermediate and advanced project plans. Each stage offers short and full video options, a practice task and portfolio evidence fields. The dashboard shows the next action and flags missing or brief project, certificate and CV evidence. Pass gates use saved fields and self-review.
+
+The existing Career launchpad handles CV drafting, interview practice and application tracking. New records use the same browser storage and full backup workflow. Save edits before changing routes. GitHub Pages still serves the repository root.
+
+See [v5.5 browser evidence and remaining release checks](reports/V55-BROWSER.md) before publishing.
+
 # v5.4.0 · AWS Cloud learning course
 
 Open **AWS Cloud course** from the sidebar or Home. Includes 15 beginner lessons, short supporting videos, official AWS references, no-account tasks, saved evidence, study planning, a 15-question original review, portfolio notes and Cloud Engineer career links. New AWS records are included in full backups.
