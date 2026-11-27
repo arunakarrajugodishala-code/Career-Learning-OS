@@ -1,3 +1,13 @@
+const lessons = [...foundations, ...scenarioLessons.map(scenario => ({
+  command: commandLabs[scenario.day],
+  objective: 'Explain and apply ' + curriculum[scenario.day - 1].topic + '.',
+  notes: [scenario.notes],
+  recall: scenario.prompt,
+  lab: scenario.task,
+  expected: scenario.solution,
+  questions: [[scenario.prompt, scenario.solution, ...scenario.distractors]],
+  scenario: true
+}))];
 const storageKey = 'devops120-v2';
 const reviewIntervals = [1, 3, 7, 14, 30];
 const $ = id => document.getElementById(id);
@@ -19,13 +29,13 @@ function normalizeRecords(records, legacy = false) {
     /^(0|[1-9]\d*)$/.test(key) && Number(key) < curriculum.length &&
     value && typeof value === 'object' && !Array.isArray(value)
   ).map(([key, value]) => {
-    const lesson = foundations[Number(key)];
+    const lesson = lessons[Number(key)];
     const evidence = typeof value.evidence === 'string' ? value.evidence : '';
     const output = typeof value.output === 'string' ? value.output : '';
     const answers = Array.isArray(value.answers) ? value.answers : [];
     const score = lesson ? scoreQuiz(lesson, answers) : 0;
     const pass = Boolean(!legacy && lesson && evidence.trim() &&
-      comparable(output) === lesson.expected && score >= 85);
+      comparable(output) === (lesson.command?.[2] ?? lesson.expected) && score >= 85);
     const reviews = Number.isInteger(value.reviews) && value.reviews >= 0
       ? Math.min(value.reviews, reviewIntervals.length) : 0;
     const due = pass && reviews < reviewIntervals.length
@@ -63,8 +73,8 @@ function saveProgress() {
 }
 
 function firstUnpassed() {
-  const next = foundations.findIndex((_, day) => !progress[day]?.pass);
-  return next < 0 ? foundations.length : next;
+  const next = lessons.findIndex((_, day) => !progress[day]?.pass);
+  return next < 0 ? lessons.length - 1 : next;
 }
 
 function scoreQuiz(lesson, answers) {
@@ -73,10 +83,10 @@ function scoreQuiz(lesson, answers) {
 }
 
 function showProgress() {
-  const completed = foundations.filter((_, day) => progress[day]?.pass).length;
+  const completed = lessons.filter((_, day) => progress[day]?.pass).length;
   $('progress').innerHTML = '<progress aria-label="Academy progress" max="' + curriculum.length +
     '" value="' + completed + '"></progress>' + completed + ' / ' + curriculum.length +
-    ' days passed · ' + foundations.length + ' expanded lessons';
+    ' days passed · ' + lessons.length + ' lessons';
 }
 
 function selectDay(day) {
@@ -87,7 +97,7 @@ function selectDay(day) {
 
 function renderDay() {
   const topic = curriculum[index];
-  const lesson = foundations[index];
+  const lesson = lessons[index];
   const saved = progress[index] || {};
   const unlocked = index <= firstUnpassed();
   showProgress();
@@ -110,6 +120,10 @@ function renderDay() {
   if (!unlocked) {
     $('main').insertAdjacentHTML('beforeend', '<section><p>Pass Day ' + (firstUnpassed() + 1) +
       ' to continue through the foundations sequence.</p></section>');
+    return;
+  }
+  if (lesson.scenario) {
+    renderScenario(lesson, saved);
     return;
   }
   const notes = lesson.notes.map(note => '<p>' + escape(note) + '</p>').join('');
@@ -177,7 +191,7 @@ $('resume').onclick = () => selectDay(firstUnpassed());
 function showRevisions() {
   $('main').innerHTML = '<section><h2>Revision queue</h2><p>Recall the answer before opening the lesson. ' +
     'A review is scheduled after 1, then 3, 7, 14 and 30 days from the previous completion.</p><div id="queue"></div></section>';
-  const due = foundations.map((lesson, day) => ({ lesson, day, record: progress[day] }))
+  const due = lessons.map((lesson, day) => ({ lesson, day, record: progress[day] }))
     .filter(({ record }) => record?.due && Date.parse(record.due) <= Date.now());
   if (!due.length) $('queue').textContent = 'No reviews are due today.';
   for (const { lesson, day, record } of due) {
@@ -203,20 +217,18 @@ function showRevisions() {
 $('revisions').onclick = showRevisions;
 
 $('audit').onclick = () => {
-  const prompts = foundations.flatMap(lesson => lesson.questions.map(([question]) => question.trim().toLowerCase()));
+  const prompts = lessons.flatMap(lesson => lesson.questions.map(([question]) => question.trim().toLowerCase()));
   const duplicates = prompts.length - new Set(prompts).size;
   $('main').innerHTML = '<section><h2>Coverage checker</h2><ul><li>' + curriculum.length +
-    ' planner entries</li><li>' + foundations.length + ' expanded lessons with commands and an output check</li><li>' +
-    prompts.length + ' scored questions · ' + duplicates +
-    ' exact duplicate prompts</li></ul><p>Pending verification includes curriculum completeness, curated videos, ' +
-    'official certification mapping, full examinations, project evidence, independent lab grading, device and offline testing.</p>' +
-    '<details><summary>Days awaiting expanded lessons</summary><ol start="' + (foundations.length + 1) + '">' +
-    curriculum.slice(foundations.length).map(day => '<li>' + escape(day.topic) + '</li>').join('') +
-    '</ol></details></section>';
+    ' planner entries · ' + lessons.length + ' days with learning material</li><li>' +
+    (foundations.length + Object.keys(commandLabs).length) + ' command labs with output checks</li><li>' + scenarioLessons.length +
+    ' worked scenarios with written evidence</li><li>' + prompts.length +
+    ' daily questions · ' + duplicates + ' exact duplicates</li></ul>' +
+    '<p>Counts are automated. Independent review of technical depth, course coverage, media, examinations, device compatibility and release readiness is pending.</p></section>';
 };
 $('backup').onclick = () => {
   const link = document.createElement('a');
-  const url = URL.createObjectURL(new Blob([JSON.stringify({ version: 2, progress })], { type: 'application/json' }));
+  const url = URL.createObjectURL(new Blob([JSON.stringify({ version: 2, progress, modules: getExtras() })], { type: 'application/json' }));
   link.href = url;
   link.download = 'devops-progress.json';
   document.body.append(link);
@@ -235,9 +247,64 @@ $('restore').onchange = async event => {
     if (!confirm('Replace current Academy progress with this backup?')) return;
     progress = normalizeRecords(backup.version === 2 ? backup.progress : backup, backup.version !== 2);
     saveProgress();
+    if (backup.version === 2 && backup.modules && typeof backup.modules === 'object' && !Array.isArray(backup.modules)) {
+      for (const key of ['schedule', 'exams', 'portfolio', 'career']) {
+        if (Object.hasOwn(backup.modules, key)) saveExtras(key, backup.modules[key]);
+      }
+    }
     selectDay(firstUnpassed());
   } catch {
     showStatus('This backup could not be restored. Current progress was kept.');
   }
 };
 selectDay(index);
+
+function renderScenario(lesson, saved) {
+  const [prompt, solution, ...distractors] = lesson.questions[0];
+  const answers = [solution, ...distractors];
+  const shift = (index % 3 + 1) % 3;
+  const ordered = answers.slice(shift).concat(answers.slice(0, shift));
+  $('main').insertAdjacentHTML('beforeend',
+    '<section><h3>Objective</h3><p>' + escape(lesson.objective) + '</p><h3>Concept notes</h3><p>' +
+    escape(lesson.notes[0]) + '</p><h3>Practical exercise</h3><p>' + escape(lesson.lab) +
+    '</p><form id="scenario">' + (lesson.command ? '<h3>Command lab</h3><p>' +
+      escape(lesson.command[0]) + '</p><pre><code>' + escape(lesson.command[1]) +
+      '</code></pre><details><summary>Expected lab output</summary><pre>' + escape(lesson.command[2]) +
+      '</pre></details><label>Paste the requested output<textarea name="output" required rows="3">' +
+      escape(saved.output) + '</textarea></label>' : '') + '<label>Your work and verification<textarea name="evidence" rows="5" required>' +
+    escape(saved.evidence) + '</textarea></label><fieldset><legend>' + escape(prompt) + '</legend>' +
+    ordered.map(answer => '<label><input type="radio" name="answer" required value="' + escape(answer) + '"' +
+      (saved.answers?.[0] === answer ? ' checked' : '') + '> ' + escape(answer) + '</label>').join('') +
+    '</fieldset><p>Pass this scenario by choosing the correct decision and recording your work. Review your practical evidence against the instructions.</p>' +
+    '<button type="submit">Check and save</button></form><p id="result" role="status"></p></section>'
+  );
+  $('scenario').onsubmit = event => {
+    event.preventDefault();
+    const fields = new FormData(event.currentTarget);
+    const evidence = fields.get('evidence').trim();
+    const answer = fields.get('answer');
+    const score = scoreQuiz(lesson, [answer]);
+    const output = lesson.command ? comparable(fields.get('output')) : answer;
+    const labPassed = !lesson.command || output === lesson.command[2];
+    const pass = score >= 85 && Boolean(evidence) && labPassed;
+    const previous = progress[index];
+    if (!previous?.pass || pass) {
+      progress[index] = {
+        evidence, output, answers: [answer], score, pass,
+        reviews: previous?.reviews || 0,
+        due: previous?.pass ? previous.due : pass ? reviewDate(new Date(), 1) : null
+      };
+      saveProgress();
+    }
+    showProgress();
+    $('result').textContent = pass ? '100% · Evidence saved · Scenario passed' :
+      (labPassed ? 'Review and retry. ' : 'Check the command lab output. ') +
+      (score >= 85 ? 'Your scenario decision matched.' : 'Model decision: ' + solution);
+    if (pass && index + 1 < lessons.length) {
+      const next = document.createElement('button');
+      next.textContent = 'Open next day';
+      next.onclick = () => selectDay(index + 1);
+      $('result').append(' ', next);
+    }
+  };
+}
